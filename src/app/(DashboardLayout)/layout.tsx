@@ -49,7 +49,7 @@ export default function RootLayout({
       <PageWrapper className="page-wrapper"
           sx={{
               [theme.breakpoints.up("lg")]: {
-                ml: `256px`,
+                ml: `270px`,
               },
           }}
       >
