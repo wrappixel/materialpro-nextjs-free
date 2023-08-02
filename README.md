@@ -6,8 +6,8 @@
 </h1>
 
 <!-- Main image of Template -->
-<a target="_blank" href="https://www.wrappixel.com/templates/flexy-next-js-free-admin-template/">
-  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2022/01/flexy-nextjs-free.jpg" />
+<a target="_blank" href="#">
+  <img src="#" />
 </a>
 
 <!-- Description of Template -->
@@ -67,11 +67,11 @@ People love this react dashboard as it is well-known for creating a seamless exp
 <h2>Resources</h2>
 <ul>
 <li>  
-  Live Demo: <a href="https://demos.wrappixel.com/free-admin-templates/nextjs/flexy-nextjs-admin-free-dist/landingpage/" rel="nofollow">https://demos.wrappixel.com/free-admin-templates/nextjs/flexy-nextjs-admin-free-dist/landingpage/</a>
+  Live Demo: <a href="#" rel="nofollow"></a>
 </li>
 <li>
-    Download Page: <a href="https://www.wrappixel.com/templates/flexy-next-js-free-admin-template/" rel="nofollow">
-  https://www.wrappixel.com/templates/flexy-next-js-free-admin-template/</a>
+    Download Page: <a href="#" rel="nofollow">
+  </a>
 </li>
 <li>
     <a href="https://www.wrappixel.com/templates/wrapkit/#demos" rel="nofollow">WrapKit </a>Complete UI Kit - For Website Projects
