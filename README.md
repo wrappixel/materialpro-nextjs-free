@@ -6,7 +6,7 @@
 </h1>
 
 <!-- Main image of Template -->
-<a target="_blank" href="#">
+<a target="_blank" href="https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template/">
   <img src="https://www.wrappixel.com/wp-content/uploads/2023/08/materialpro-nextjs-free-2.jpg" />
 </a>
 
@@ -70,7 +70,8 @@ People love this react dashboard as it is well-known for creating a seamless exp
   Live Demo: <a href="#" rel="nofollow"></a>
 </li>
 <li>
-    Download Page: <a href="#" rel="nofollow">
+    Download Page: <a href="https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template/" rel="nofollow">
+      https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template/
   </a>
 </li>
 <li>
