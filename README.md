@@ -12,7 +12,7 @@
 
 <!-- Description of Template -->
 <p>
- Flexy Free Nextjs version is built with Most Popular Framework React Material-UI.
+ Materialpro Free Nextjs version is built with Most Popular Framework React Material-UI.
 
 The free version comes with elegant grid design that helps you play around with the look and feel of the web app the way you want. it's carefully hand crafted minimal admin template, Its build with modular and modern design.
 
@@ -82,7 +82,7 @@ People love this react dashboard as it is well-known for creating a seamless exp
 <h2>Licensing</h2>
 <ul>
   <li>
-    <p>Copyright 2022 Wrappixel (<a href="https://www.wrappixel.com/" rel="nofollow">https://www.wrappixel.com/</a>)</p>
+    <p>Copyright 2023 Wrappixel (<a href="https://www.wrappixel.com/" rel="nofollow">https://www.wrappixel.com/</a>)</p>
   </li>
   <li>
     <p>Licensed under MIT (<a href="https://www.wrappixel.com/license/">https://www.wrappixel.com/license/</a>)</p>
@@ -109,6 +109,7 @@ People love this react dashboard as it is well-known for creating a seamless exp
 <li><a href="https://www.wrappixel.com/templates/category/angular-templates/">Angular JS Dashboard</a> from WrapPixel</li>
 <li><a href="https://www.wrappixel.com/templates/category/react-templates/">React Website Templates</a> from WrapPixel</li>
 <li><a href="https://www.wrappixel.com/templates/category/vuejs-templates/">Vue JS Templates</a> from WrapPixel</li>
+<li><a href="https://www.wrappixel.com/templates/category/free-templates/">Free Themes</a> from WrapPixel</li>
 <li><a href="https://www.wrappixel.com/templates/category/free-templates/">Free Themes</a> from WrapPixel</li>
 </ul>
 
