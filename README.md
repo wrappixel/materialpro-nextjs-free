@@ -40,23 +40,23 @@ People love this react dashboard as it is well-known for creating a seamless exp
 <tbody>
 <tr>
 <td>
-  <a href="https://www.wrappixel.com/templates/flexy-bootstrap-admin-template/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2021/05/flexy.jpg" alt="Flexy Template  Bootstrap" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/materialpro/" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/materialpro-bootstrap-admin-y.jpg" alt="Materialpro Template  Bootstrap" style="max-width:150px;">
   </a>
 </td>
 <td>
-  <a href="https://www.wrappixel.com/templates/flexy-react-material-dashboard-admin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2021/07/flexy-react-admin.jpg" alt="Flexy Template  React" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/materialpro-react-redux-admin/" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/materialpro-react-admin-y.jpg" alt="Materialpro Template  React" style="max-width:150px;">
   </a>
 </td>
       <td>
-  <a href="https://www.wrappixel.com/templates/flexy-material-angular-admin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/2022/03/flexy-angular-pro.jpg" alt="Flexy Template  Angular" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/materialpro-angular-dashboard/" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/materialpro-angular-admin-y.jpg" alt="Materialpro Template  Angular" style="max-width:150px;">
   </a>
 </td>
   <td>
-  <a href="https://www.wrappixel.com/templates/flexy-nextjs-dashboard-material-ui/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2022/04/nextjs-flexy.jpg" alt="Flexy Template  NextJs" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/2023/07/materialpro-nextjs.jpg" alt="Materialpro Template  NextJs" style="max-width:150px;">
   </a>
 </td>
 </tr>
