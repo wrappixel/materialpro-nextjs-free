@@ -7,7 +7,7 @@
 
 <!-- Main image of Template -->
 <a target="_blank" href="#">
-  <img src="#" />
+  <img src="https://www.wrappixel.com/wp-content/uploads/2023/08/materialpro-nextjs-free-2.jpg" />
 </a>
 
 <!-- Description of Template -->
