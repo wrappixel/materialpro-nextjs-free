@@ -92,12 +92,12 @@ People love this react dashboard as it is well-known for creating a seamless exp
 
 <!-- Upgrade to Premium version of Template -->
 <h2>Upgrade to Premium version</h2>
-<a target="_blank" href="https://www.wrappixel.com/templates/flexy-nextjs-dashboard-material-ui/">
-  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2022/04/nextjs-flexy.jpg" />
+<a target="_blank" href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/">
+  <img src="https://www.wrappixel.com/wp-content/uploads/2023/07/materialpro-nextjs.jpg" />
 </a>
 <p>
    Checkout our premium version of Flexy NextJs Admin for lots more features and ready to use page templates.<br>
-   <a href="https://flexy-next-js-dashboard.vercel.app/dashboards/dashboard1">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/flexy-nextjs-dashboard-material-ui/">Download</a>
+   <a href="https://materialpro-nextjs-pro.vercel.app/">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/">Download</a>
 </p>
 
 <!-- Useful Links of Template -->
