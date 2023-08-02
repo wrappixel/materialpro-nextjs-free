@@ -1,6 +1,6 @@
 <!-- # flexy-bootstrap-lite-- >
 <!-- Heading of Template -->
-<h3><a href="https://flexy-mui-nextjs-free.netlify.app/">Live Demo</a></h3>
+<h3><a href="https://materialpro-nextjs-free.vercel.app/">Live Demo</a></h3>
 <h1>
   Materialpro Next Js Free Admin
 </h1>
