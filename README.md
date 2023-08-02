@@ -2,7 +2,7 @@
 <!-- Heading of Template -->
 <h3><a href="https://flexy-mui-nextjs-free.netlify.app/">Live Demo</a></h3>
 <h1>
-  Flexy Next Js Free Admin
+  Materialpro Next Js Free Admin
 </h1>
 
 <!-- Main image of Template -->
