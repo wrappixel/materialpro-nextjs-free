@@ -67,7 +67,7 @@ People love this react dashboard as it is well-known for creating a seamless exp
 <h2>Resources</h2>
 <ul>
 <li>  
-  Live Demo: <a href="#" rel="nofollow"></a>
+  Live Demo: <a href="https://demos.wrappixel.com/free-admin-templates/nextjs/materialpro-nextjs-free/landingpage/index.html" rel="nofollow">https://demos.wrappixel.com/free-admin-templates/nextjs/materialpro-nextjs-free/landingpage/index.html</a>
 </li>
 <li>
     Download Page: <a href="https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template/" rel="nofollow">
