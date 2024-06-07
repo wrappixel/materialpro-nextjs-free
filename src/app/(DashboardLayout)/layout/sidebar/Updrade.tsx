@@ -30,7 +30,7 @@ const Upgrade = () => (
           variant="contained"
           color="primary"
           fullWidth
-          href="#"
+          href="https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template/"
           target="_blank"
           sx={{ marginBottom: "10px" }}
         >
@@ -39,7 +39,7 @@ const Upgrade = () => (
 
         <Button
           color="secondary"
-          href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory"
+          href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=33"
           fullWidth
           target="_blank"
           disableElevation

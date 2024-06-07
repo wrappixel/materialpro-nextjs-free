@@ -1,349 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Tell the browser to be responsive to screen width -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <!-- Favicon icon -->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="https://demos.wrappixel.com/premium-admin-templates/nextjs/materialpro-nextjs/landingpage/dist/images/favicon.png"
-    />
-    <title>
-      MaterialPro Admin Template - Most Advanced Dashboard Kit of All Time
-    </title>
-    <!-- Custom CSS -->
-    <link
-      href="https://demos.wrappixel.com/free-admin-templates/angular/landingpage-styles/dist/css/style.css"
-      rel="stylesheet"
-    />
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
 
-  <body>
-    <!-- ============================================================== -->
-    <!-- Main wrapper -->
-    <!-- ============================================================== -->
-    <div id="main-wrapper">
-      <!-- ============================================================== -->
-      <!-- Header part -->
-      <!-- ============================================================== -->
-      <header class="py-3 bg-white">
-        <div class="container">
-          <!-- Start Header -->
-          <div class="header">
-            <nav class="navbar navbar-expand-md navbar-light px-0">
-              <a class="navbar-brand" href="#">
-                <img
-                  src="https://demos.wrappixel.com/premium-admin-templates/nextjs/materialpro-nextjs/landingpage/dist/images/material-admin-logo.png"
-                  alt="logo"
-                />
-              </a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item pr-3">
-                    <a
-                      href="https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template"
-                      class="btn btn-custom btn-outline-info btn-lg"
-                      target="_blank"
-                      >Free Download</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=33"
-                      class="btn btn-custom btn-info btn-lg"
-                      target="_blank"
-                      >Check Pro Version</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-          <!-- End Header -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MaterialPro Free NextJs Admin Template by Wrappixel</title>
+
+  <!-- Favicon -->
+  <!-- --------------------------------------------------- -->
+  <link rel="shortcut icon" type="image/png"
+    href="https://demos.wrappixel.com/premium-admin-templates/nextjs/materialpro-nextjs/landingpage/dist/images/favicon.png" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <link href="./style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="main-wrapper">
+    <header class="bg-white">
+      <div class="container">
+        <!-- Start Header -->
+        <div class="header">
+          <nav class="navbar navbar-expand-md navbar-light px-0">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="https://demos.wrappixel.com/premium-admin-templates/nextjs/materialpro-nextjs/landingpage/dist/images/material-admin-logo.png"
+                alt="logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto py-3 py-md-0">
+                <li class="nav-item pe-0 pe-md-3">
+                  <a href="https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template"
+                    class="btn btn-custom btn-outline-primary d-block d-md-inline-block" target="_blank">Free
+                    Download</a>
+                </li>
+                <li class="nav-item mt-3 mt-md-0">
+                  <a href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=33"
+                    class="btn btn-custom btn-primary d-block d-md-inline-block" target="_blank">Check Pro Version</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
-      </header>
-      <!-- ============================================================== -->
-      <!-- Header part -->
-      <!-- ============================================================== -->
+        <!-- End Header -->
+      </div>
+    </header>
 
-      <!-- ============================================================== -->
-      <!-- Page wrapper part -->
-      <!-- ============================================================== -->
-      <div class="content-wrapper">
-        <!-- ============================================================== -->
-        <!-- Demos part -->
-        <!-- ============================================================== -->
-        <section class="spacer bg-light">
-          <div class="container">
-            <div class="row justify-content-md-center pt-5">
-              <div class="col-md-9 text-center">
-                <h2 class="text-dark">
-                  Create Userfriendly Interface for your
-                  <span class="font-weight-bold">Applications</span> &
-                  <span class="font-weight-bold">Products</span> with
-                  <span class="border-bottom border-dark">
-                    MaterialPro NextJs Admin</span
-                  >
-                </h2>
-              </div>
-            </div>
-            <div class="row py-5">
-              <!-- ============================================================== -->
-              <!-- Lite Demo -->
-              <!-- ============================================================== -->
-              <div class="col-md-6">
-                <div class="card p-2 mr-1">
-                  <div class="card-body p-4">
-                    <div class="text-center">
-                      <h2 class="text-dark font-weight-medium">Free Version</h2>
+    <div class="content-wrapper">
+      <section class="spacer bg-light">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <!-- ============================================================== -->
+            <!-- Lite Demo -->
+            <!-- ============================================================== -->
+            <div class="col-lg-6 col-md-9 d-flex aligh-items-stretch">
+              <div class="card p-2 me-1">
+                <div class="card-body p-4">
+                  <div class="text-center">
+                    <h3 class="text-dark font-weight-medium">Free Version</h3>
+                  </div>
+                  <div class="live-box text-center mt-4">
+                    <img class="img-fluid rounded"
+                      src="https://www.wrappixel.com/wp-content/uploads/2023/08/materialpro-nextjs-free-2.jpg"
+                      alt="Free version" />
+                  </div>
+                  <div class="text-center mt-4">
+                    <a class="btn btn-outline-secondary btn-custom mb-2 mb-md-0"
+                      href="https://materialpro-nextjs-free.vercel.app/" target="_blank">Live Preview</a>
+                    <a href="https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template"
+                      class="btn btn-secondary btn-custom ms-2" target="_blank">Free
+                      Download</a>
+                  </div>
+
+                  <div class="row text-muted mt-4">
+                    <div class="col-md-6">
+                      <ul class="list-unstyled listing">
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-muted me-2"></span>1 Basic Dashboard
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-muted me-2"></span>7+ UI component
+                          pages
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-muted me-2"></span>7+ Pages Template
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-muted me-2"></span>Latest Material UI
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-muted me-2"></span>Tabler Icons
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-muted me-2"></span>Fully Responsive
+                          Pages
+                        </li>
+
+                      </ul>
                     </div>
-                    <div class="live-box text-center mt-4">
-                      <img
-                        class="img-fluid"
-                        src="https://www.wrappixel.com/wp-content/uploads/2023/08/materialpro-nextjs-free-2.jpg"
-                        alt="Lite version"
-                      />
-                    </div>
-                    <div class="text-center mt-4">
-                      <a
-                        class="btn btn-danger btn-custom mb-2 mb-md-0"
-                        href="https://materialpro-nextjs-free.vercel.app/"
-                        target="_blank"
-                        >Live Preview</a
-                      >
-                      <a
-                        href="https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template/#comparison"
-                        class="btn btn-custom btn-info ml-2"
-                        target="_blank"
-                        >Free Download</a
-                      >
-                    </div>
-                    <p class="text-muted mt-5 line-h33 font-16">
-                      Introducing MaterialPro Free Next Js Template, a
-                      cutting-edge web development solution built upon the
-                      widely acclaimed Material-UI framework. This free version
-                      boasts an elegant grid design, providing users with the
-                      flexibility to effortlessly customize the web app's
-                      appearance to their liking.
-                    </p>
-                    <div class="row text-muted mt-4">
-                      <div class="col-md-6">
-                        <ul class="list-unstyled listing">
-                          <li>
-                            <span class="icon-circle"></span>1 Basic Dashboard
-                          </li>
-                          <li>
-                            <span class="icon-circle"></span>7+ UI component
-                            pages
-                          </li>
-                          <li>
-                            <span class="icon-circle"></span>7+ Pages Template
-                          </li>
-                          <li>
-                            <span class="icon-circle"></span>Latest Material UI
-                          </li>
-                          <li>
-                            <span class="icon-circle"></span>Tabler Icons
-                          </li>
-                          <li>
-                            <span class="icon-circle"></span>Fully Responsive
-                            Pages
-                          </li>
-                          
-                        </ul>
-                      </div>
-                      <div class="col-md-6">
-                        <ul class="list-unstyled listing">
-                          <li>
-                            <span class="icon-circle"></span>Easy To Customize
-                          </li>
-                          <li class="text-dark">
-                            <span class="icon-circle"></span>No Documentation
-                          </li>
-                          <li class="text-dark">
-                            <span class="icon-circle"></span>Backlink Required
-                          </li>
-                          <li class="text-dark">
-                            <span class="icon-circle"></span>No Support Provided
-                          </li>
-                        </ul>
-                      </div>
+                    <div class="col-md-6">
+                      <ul class="list-unstyled listing">
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-muted me-2"></span>Easy To Customize
+                        </li>
+                        <li class="text-dark py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-muted me-2"></span>No Documentation
+                        </li>
+                        <li class="text-dark py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-muted me-2"></span>Backlink Required
+                        </li>
+                        <li class="text-dark py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-muted me-2"></span>No Support Provided
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
               </div>
-              <!-- ============================================================== -->
-              <!-- Pro Demo -->
-              <!-- ============================================================== -->
-              <div class="col-md-6">
-                <div class="card pro-demo p-2 ml-1">
-                  <div class="card-body p-4">
-                    <div class="text-center">
-                      <h2 class="text-info font-weight-medium">Pro Version</h2>
+            </div>
+            <!-- ============================================================== -->
+            <!-- Pro Demo -->
+            <!-- ============================================================== -->
+            <div class="col-lg-6 col-md-9 mt-0 mt-md-4 mt-lg-0">
+              <div class="card pro-demo p-2 ms-1">
+                <div class="card-body p-4">
+                  <div class="text-center">
+                    <h3 class="text-primary font-weight-medium">
+                      Pro Version
+                    </h3>
+                  </div>
+                  <div class="live-box text-center mt-4">
+                    <img class="img-fluid rounded"
+                      src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-next-js-admin-wpn1.jpg"
+                      alt="Pro version" />
+                  </div>
+                  <div class="text-center mt-4">
+                    <a class="btn btn-outline-primary btn-custom mb-2 mb-md-0"
+                      href="https://materialpro-nextjs-pro.vercel.app/"
+                      target="_blank">Live Preview</a>
+                    <a href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=33"
+                      class="btn btn-custom btn-primary ms-2" target="_blank">Check Pro Version</a>
+                  </div>
+                  <div class="row text-dark mt-4">
+                    <div class="col-md-6">
+                      <ul class="list-unstyled listing">
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>6+ Stunning
+                          Dashboards
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>65+ Page
+                          Templates
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>45+ UI
+                          Components
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>Axios Included
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>Front-end
+                          Landing Page
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>1 Year
+                          Premium Support
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>Right-to-Left(RTL) Verion
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>Unlimited
+                          Colors
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>3000+ Font
+                          Icons
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>Lots of Chart
+                          Options
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>Latest
+                          Material UI
+                        </li>
+
+                      </ul>
                     </div>
-                    <div class="live-box text-center mt-4">
-                      <img
-                        class="img-fluid"
-                        src="https://www.wrappixel.com/wp-content/uploads/2023/07/materialpro-nextjs.jpg"
-                        alt="Pro version"
-                      />
-                    </div>
-                    <div class="text-center mt-4">
-                      <a
-                        class="btn btn-danger btn-custom mb-2 mb-md-0"
-                        href="https://materialpro-nextjs-pro.vercel.app/"
-                        target="_blank"
-                        >Live Preview</a
-                      >
-                      <a
-                        href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=33"
-                        class="btn btn-custom btn-info ml-2"
-                        target="_blank"
-                        >Buy Pro Version</a
-                      >
-                    </div>
-                    <div class="row text-dark mt-5">
-                      <div class="col-md-6">
-                        <ul class="list-unstyled listing">
-                          <li>
-                            <span class="icon-circle info"></span>6+ Stunning
-                            Dashboards
-                          </li>
-                          <li>
-                            <span class="icon-circle info"></span>65+ Page
-                            Templates
-                          </li>
-                          <li>
-                            <span class="icon-circle info"></span>45+ UI
-                            Components
-                          </li>
-                          <li>
-                            <span class="icon-circle info"></span>Axios Included
-                          </li>
-                          <li>
-                            <span class="icon-circle info"></span>Front-end
-                            Landing Page
-                          </li>
-                          <li>
-                            <span class="icon-circle info"></span>1 Year
-                            Premium Support
-                          </li>
-                          <li>
-                            <span class="icon-circle info"></span
-                            >Right-to-Left(RTL) Verion
-                          </li>
-                          <li>
-                            <span class="icon-circle info"></span>Unlimited
-                            Colors
-                          </li>
-                          <li>
-                            <span class="icon-circle info"></span>3000+ Font
-                            Icons
-                          </li>
-                          <li>
-                            <span class="icon-circle info"></span>Lots of Chart
-                            Options
-                          </li>
-                          <li>
-                            <span class="icon-circle info"></span>Latest
-                            Material UI
-                          </li>
-                          
-                        </ul>
-                      </div>
-                      <div class="col-md-6">
-                        <ul class="list-unstyled listing">
-                          <li>
-                            <span class="icon-circle info"></span>5+ Unique
-                            Demos
-                          </li>
-                          <li>
-                            <span class="icon-circle info"></span>8+ Ready to
-                            Use App
-                          </li>
-                          <li>
-                            <span class="icon-circle info"></span>Light and Dark
-                            Sidebar
-                          </li>
-                          <li>
-                            <span class="icon-circle info"></span>i18n Added
-                          </li>
-                          <li>
-                            <span class="icon-circle info"></span>Slick Carousel Added
-                          </li>
-                          <li>
-                            <span class="icon-circle info"></span>Documentation
-                            Provided
-                          </li>
-                          
-                          <li>
-                            <span class="icon-circle info"></span>Tons of Table
-                            Example
-                          </li>
-                          <li>
-                            <span class="icon-circle info"></span>Dashboard Figma
-                            Files
-                          </li>
-                          
-                          <li>
-                            <span class="icon-circle info"></span>Easy to
-                            Customize
-                          </li>
-                          <li>
-                            <span class="icon-circle info"></span>Fully
-                            Responsive Pages
-                          </li>
-                          <li>
-                            <span class="icon-circle info"></span>& lots more..
-                          </li>
-                        </ul>
-                      </div>
+                    <div class="col-md-6">
+                      <ul class="list-unstyled listing">
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>5+ Unique
+                          Demos
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>8+ Ready to
+                          Use App
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>Light and Dark
+                          Sidebar
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>i18n Added
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>Slick Carousel Added
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>Documentation
+                          Provided
+                        </li>
+
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>Tons of Table
+                          Example
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>Dashboard Figma
+                          Files
+                        </li>
+
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>Easy to
+                          Customize
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>Fully
+                          Responsive Pages
+                        </li>
+                        <li class="py-2 d-flex align-items-center">
+                          <span class="icon-circle circle-primary me-2"></span>& lots more..
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-      </div>
-      <!-- ============================================================== -->
-      <!-- End page wrapperHeader part -->
-      <!-- ============================================================== -->
+        </div>
+      </section>
+
       <footer class="text-center p-4">
         All Rights Reserved by MaterialPro NextJs Admin. Designed and Developed
         by
-        <a href="https://www.wrappixel.com">WrapPixel</a>.
+        <a href="https://www.wrappixel.com">wrappixel.com</a>
       </footer>
     </div>
-  </body>
-  <!-- ============================================================== -->
-  <!-- All Jquery -->
-  <!-- ============================================================== -->
-  <script src="https://demos.wrappixel.com/free-admin-templates/angular/landingpage-styles/assets/plugins/jquery/dist/jquery.min.js"></script>
-  <!-- Bootstrap tether Core JavaScript -->
-  <script src="https://demos.wrappixel.com/free-admin-templates/angular/landingpage-styles/assets/plugins/popper.js/dist/umd/popper.min.js"></script>
-  <script src="https://demos.wrappixel.com/free-admin-templates/angular/landingpage-styles/assets/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

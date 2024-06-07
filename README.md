@@ -1,121 +1,223 @@
-<!-- # flexy-bootstrap-lite-- >
-<!-- Heading of Template -->
-<h3><a href="https://materialpro-nextjs-free.vercel.app/">Live Demo</a></h3>
-<h1>
-  Materialpro Next Js Free Admin
-</h1>
+
+# <a href="https://materialpro-nextjs-free.vercel.app/">MaterialPro NextJS Free</a>
+MaterialPro NextJS Admin Dashboard
 
 <!-- Main image of Template -->
 <a target="_blank" href="https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template/">
   <img src="https://www.wrappixel.com/wp-content/uploads/2023/08/materialpro-nextjs-free-2.jpg" />
 </a>
 
-<!-- Description of Template -->
-<p>
- Materialpro Free Nextjs version is built with Most Popular Framework React Material-UI.
 
-The free version comes with elegant grid design that helps you play around with the look and feel of the web app the way you want. it's carefully hand crafted minimal admin template, Its build with modular and modern design.
+# Compare with Premium Version 🌓
 
-People love this react dashboard as it is well-known for creating a seamless experience for users with modern design helping to execute complex requirements. It readily offers UI elements, creative pages, and user-friendliness environment.
-</p>
-
-<!-- <h4><a href="https://wrappixel.com/demos/free-admin-templates/xtreme-admin-lite/xtreme-html/ltr/index.html">Free Version Demo Link</a></h4> -->
-
-<!-- ## Pro Version -->
-
-<!-- <a href="https://www.wrappixel.com/templates/xtremeadmin/"><img src="https://www.wrappixel.com/wp-content/uploads/2019/01/xtreme-admin-bootstrap-nw-1.jpg"/></a><br/>
-<h4><a href="https://www.wrappixel.com/demos/admin-templates/xtreme-admin/html/ltr/index.html">Demo</a></h4> -->
-
-<!-- Versions of Template -->
-<h2><a id="user-content-versions" class="anchor" aria-hidden="true" href="#versions"></a>Versions</h2>
 <table>
 <thead>
 <tr>
-<th>Bootstrap</th>
-<th>React</th>
+<th>MaterialPro NextJS Free Version</th>
+<th>MaterialPro NextJS Pro Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>
+    <a href="https://materialpro-nextjs-free.vercel.app/">Live Preview</a>
+  </td>
+  <td>
+  <a href="https://materialpro-nextjs-pro.vercel.app/">Live Preview</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <a href="https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template/">Download Now</a>
+  </td>
+  <td>
+    <a href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=33">Purchase Now</a>
+  </td>
+</tr>
+<tr>
+  <td>
+  1 Basic Dashboard
+  </td>
+  <td>
+  6+ Stunning Dashboards
+  </td>
+</tr>
+<tr>
+  <td>
+  -
+  </td>
+  <td>
+  Dashboard Figma Files
+  </td>
+</tr>
+<tr>
+  <td>
+  Material Ui
+  </td>
+  <td>
+  Material Ui
+  </td>
+</tr>
+<tr>
+  <td>
+  Fully Responsive Pages
+  </td>
+  <td>
+  Fully Responsive Pages
+  </td>
+</tr>
+<tr>
+  <td>
+  7+ Pages Template
+  </td>
+  <td>
+  65+ Page Templates
+  </td>
+</tr>
+<tr>
+  <td>
+  7+ UI Components
+  </td>
+  <td>
+  45+ UI Components
+  </td>
+</tr>
+<tr>
+  <td>
+  No Documentation
+  </td>
+  <td>
+  Documentation Provided
+  </td>
+</tr>
+<tr>
+  <td>
+  Tabler Icons
+  </td>
+  <td>
+  Tabler Icons
+  </td>
+</tr>
+<tr>
+  <td>
+  Easy To Customize
+  </td>
+  <td>
+  Easy To Customize
+  </td>
+</tr>
+<tr>
+  <td>
+  -
+  </td>
+  <td>
+  Right-to-Left(RTL) Verion
+  </td>
+</tr>
+<tr>
+  <td>
+  -
+  </td>
+  <td>
+  15+ Integrated Plugins
+  </td>
+</tr>
+<tr>
+  <td>
+  -
+  </td>
+  <td>
+  8+ Ready to Use App
+  </td>
+</tr>
+<tr>
+  <td>
+  -
+  </td>
+  <td>
+  1 Year Premium Support
+  </td>
+</tr>
+</tbody>
+</table>
+
+
+
+# Upgrade to Premium version
+
+<a target="_blank" href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=33">
+  <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-next-js-admin-wpn1.jpg" alt="">
+</a>
+<p>
+  Checkout our premium version of MaterialPro NextJs Dashboard Template for lots more features and ready to use page templates.<br>
+  <a href="https://materialpro-nextjs-pro.vercel.app/">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=33">Download</a>
+</p>
+
+<!-- Versions of Template -->
+# Versions
+<table>
+<thead>
+<tr>
+<th>Next Js</th>
 <th>Angular</th>
-<th>NextJs</th>
+<th>Vue</th>
+<th>Nuxt Js</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-  <a href="https://www.wrappixel.com/templates/materialpro/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/materialpro-bootstrap-admin-y.jpg" alt="Materialpro Template  Bootstrap" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=33" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-next-js-admin-wpn1.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
 <td>
-  <a href="https://www.wrappixel.com/templates/materialpro-react-redux-admin/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/materialpro-react-admin-y.jpg" alt="Materialpro Template  React" style="max-width:150px;">
+  <a href="https://www.wrappixel.com/templates/materialpro-angular-dashboard/?ref=33" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-angular-admin-wpn.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
-      <td>
-  <a href="https://www.wrappixel.com/templates/materialpro-angular-dashboard/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2020/04/materialpro-angular-admin-y.jpg" alt="Materialpro Template  Angular" style="max-width:150px;">
+<td>
+  <a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/?ref=33" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-vuetify-admin-wpn.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
-  <td>
-  <a href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/" rel="nofollow" width="150px">
-    <img src="https://www.wrappixel.com/wp-content/uploads/2023/07/materialpro-nextjs.jpg" alt="Materialpro Template  NextJs" style="max-width:150px;">
+<td>
+  <a href="https://www.wrappixel.com/templates/materialpro-nuxtjs/?ref=33" rel="nofollow" width="150px">
+    <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-nuxtjs-admin-wpn.jpg" alt="" style="max-width:150px;">
   </a>
 </td>
+</td>
+  
 </tr>
 </tbody>
 </table>
 
-<!-- Resources of Template -->
-<h2>Resources</h2>
-<ul>
-<li>  
-  Live Demo: <a href="https://demos.wrappixel.com/free-admin-templates/nextjs/materialpro-nextjs-free/landingpage/index.html" rel="nofollow">https://demos.wrappixel.com/free-admin-templates/nextjs/materialpro-nextjs-free/landingpage/index.html</a>
-</li>
-<li>
-    Download Page: <a href="https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template/" rel="nofollow">
-      https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template/
-  </a>
-</li>
-<li>
-    <a href="https://www.wrappixel.com/templates/wrapkit/#demos" rel="nofollow">WrapKit </a>Complete UI Kit - For Website Projects
-</li>
-</ul>
-
-<!-- Licensing of Template -->
-<h2>Licensing</h2>
-<ul>
-  <li>
-    <p>Copyright 2023 Wrappixel (<a href="https://www.wrappixel.com/" rel="nofollow">https://www.wrappixel.com/</a>)</p>
-  </li>
-  <li>
-    <p>Licensed under MIT (<a href="https://www.wrappixel.com/license/">https://www.wrappixel.com/license/</a>)</p>
-  </li>
-</ul>
 
 
-<!-- Upgrade to Premium version of Template -->
-<h2>Upgrade to Premium version</h2>
-<a target="_blank" href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/">
-  <img src="https://www.wrappixel.com/wp-content/uploads/2023/07/materialpro-nextjs.jpg" />
-</a>
-<p>
-   Checkout our premium version of Flexy NextJs Admin for lots more features and ready to use page templates.<br>
-   <a href="https://materialpro-nextjs-pro.vercel.app/">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/">Download</a>
-</p>
+
 
 <!-- Useful Links of Template -->
-<h2>Useful Links</h2>
-<ul>
-<li><a href="https://www.wrappixel.com/templates/category/admin-template/">Admin Panel Template</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/">Free Bootstrap Themes</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/bootstrap-admin-templates/">Bootstrap Admin Template</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/angular-templates/">Angular JS Dashboard</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/react-templates/">React Website Templates</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/vuejs-templates/">Vue JS Templates</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/nextjs-templates/">Next JS Templates</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/templates/category/free-templates/">Free Themes</a> from WrapPixel</li>
-</ul>
+# Useful Links
+- <p><a href="https://www.wrappixel.com/">Admin Theme</a> from Wrappixel</p>
+- <p><a href="https://www.wrappixel.com/templates/materialpro/">Bootstrap Themes</a> from Wrappixel</p>
+- <p><a href="https://www.wrappixel.com/templates/materialpro-lite/">Free Bootstrap Admin Templates</a> from Wrappixel</p>
+- <p><a href="https://www.wrappixel.com/templates/materialpro-react-redux-admin/">React Bootstrap Template</a> from Wrappixel</p>
+- <p><a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/">Vuejs Templates</a> from Wrappixel</p>
 
-<!-- Social Media of Wrappixel -->
-<h2>Social Media</h2>
-<p>Facebook: <a href="https://www.facebook.com/wrappixel">https://www.facebook.com/wrappixel</a></p>
-<p>Twitter: <a href="https://twitter.com/wrappixel">https://twitter.com/wrappixel</a></p>
-<p>Medium: <a href="https://medium.com/wrappixel">https://medium.com/wrappixel</a></p>
+
+<!-- Licensing of Template -->
+# Licensing
+- <p>Copyright 2024 Wrappixel <a href="https://www.wrappixel.com/">https://wrappixel.com/</a></p>
+- <p>Licensed under MIT <a href="https://www.wrappixel.com/license/">https://wrappixel.com/license/</a></p>
+
+
+<!-- Social Media of Adminmart -->
+# Social Media 👭🏼
+- <p>Facebook: <a href="https://www.facebook.com/wrappixel">https://www.facebook.com/wrappixel</a></p>
+- <p>Linkedin: <a href="https://www.linkedin.com/company/wrappixel/">https://www.linkedin.com/company/wrappixel/</a></p>
+- <p>Github: <a href="https://github.com/wrappixel">https://github.com/wrappixel</a></p>
+- <p>Twitter: <a href="https://twitter.com/wrappixel">https://twitter.com/wrappixel</a></p>
+- <p>Medium: <a href="https://medium.com/wrappixel">https://medium.com/wrappixel</a></p>
+- <p>Discord: <a href="https://discord.com/invite/eMzE8F6Wqs">https://discord.com/invite/eMzE8F6Wqs</a></p>
+- <p>Youtube: <a href="https://www.youtube.com/channel/UCdFDlrhIchtxF8EmxejUPGQ">https://www.youtube.com/channel/UCdFDlrhIchtxF8EmxejUPGQ</a></p>
+
