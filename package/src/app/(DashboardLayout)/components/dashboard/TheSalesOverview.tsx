@@ -19,52 +19,53 @@ const SalesOverview = () => {
 
   // chart
   const optionscolumnchart: any = {
-    chart: {
-      type: "bar",
-      height: 315,
-      offsetX: -15,
-      toolbar: { show: false },
-      foreColor: "#adb0bb",
-      fontFamily: "inherit",
-      sparkline: { enabled: false },
+
+    plotOptions: {
+      bar: {
+        horizontal: false,
+        borderRadius: 6,
+        columnWidth: "35%",
+      },
+    },
+
+    grid: {
+      show: true,
+      strokeDashArray: 3,
+      borderColor: "rgba(0,0,0,.1)",
     },
     colors: [primary, secondary],
-    fill: { type: "solid", opacity: 1 },
-    plotOptions: {
-      bar: { horizontal: false, columnWidth: "35%", borderRadius: 0 },
+    chart: {
+      width: 70,
+      height: 40,
+      foreColor: "#adb0bb",
+      fontFamily: "inherit",
+      toolbar: {
+        show: false,
+      },
     },
-    grid: {
-      show: false,
-      borderColor: "transparent",
-      padding: { left: 0, right: 0, bottom: 0 },
-    },
-    dataLabels: { enabled: false },
-    markers: { size: 0 },
-    legend: { show: false },
     xaxis: {
       type: "category",
       categories: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      axisTicks: {
+        show: false,
+      },
       axisBorder: {
         show: false,
       },
     },
-    yaxis: {
-      show: true,
-      min: 100,
-      max: 400,
-      tickAmount: 3,
-
-    },
-
     stroke: {
       show: true,
       width: 5,
-      lineCap: "butt",
       colors: ["transparent"],
     },
+    dataLabels: {
+      enabled: false,
+    },
+    legend: {
+      show: false,
+    },
     tooltip: {
-      theme: theme.palette.mode === "dark" ? "dark" : "light",
-      fillSeriesColor: false,
+      enabled: true,
     },
   };
   const seriescolumnchart = [
@@ -89,11 +90,7 @@ const SalesOverview = () => {
                   svg: { display: "none" },
                 }}
               ></Avatar>
-              <Typography
-                variant="subtitle2"
-                fontSize="12px"
-                color="primary.main"
-              >
+              <Typography variant="subtitle2" color="primary.main">
                 Ample
               </Typography>
             </Stack>
@@ -106,23 +103,19 @@ const SalesOverview = () => {
                   svg: { display: "none" },
                 }}
               ></Avatar>
-              <Typography
-                variant="subtitle2"
-                fontSize="12px"
-                color="secondary.main"
-              >
+              <Typography variant="subtitle2" color="secondary.main">
                 Pixel
               </Typography>
             </Stack>
           </Stack>
         }
       >
-        <Box height="355px">
+        <Box height="295px">
           <Chart
             options={optionscolumnchart}
             series={seriescolumnchart}
             type="bar"
-            height={355}
+            height={295}
             width={"100%"}
           />
         </Box>

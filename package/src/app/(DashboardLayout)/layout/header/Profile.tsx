@@ -29,16 +29,16 @@ const Profile = () => {
   }
   const profile: ProfileType[] = [
     {
-      href: '/',
+      href: '/utilities/forms',
       title: 'My Profile',
     },
     {
-      href: '/',
-      title: 'My Projects',
+      href: '/utilities/table',
+      title: 'My Account',
     },
     {
       href: '/',
-      title: 'Inbox',
+      title: 'My Dashboard',
     },
   ];
 
@@ -99,22 +99,18 @@ const Profile = () => {
                 className="hover-text-primary"
               >
                 <Link href={profile.href}>
-                  <Stack direction="row" spacing={2}>
-                    <Box>
-                      <Typography
-                        variant="subtitle2"
-                        fontWeight={500}
-                        color="textPrimary"
-                        className="text-hover"
-                        noWrap
-                        sx={{
-                          width: '240px',
-                        }}
-                      >
-                        {profile.title}
-                      </Typography>
-                    </Box>
-                  </Stack>
+                  <Typography
+                    variant="subtitle2"
+                    fontWeight={500}
+                    color="textPrimary"
+                    className="text-hover" component='span'
+                    noWrap
+                    sx={{
+                      width: '240px',
+                    }}
+                  >
+                    {profile.title}
+                  </Typography>
                 </Link>
               </Box>
             </Box>

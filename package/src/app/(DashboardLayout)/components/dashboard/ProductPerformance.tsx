@@ -72,27 +72,27 @@ const ProductPerfomance = () => {
           <TableHead>
             <TableRow>
               <TableCell>
-                <Typography color="textSecondary" variant="h6">
+                <Typography variant="subtitle1">
                   Id
                 </Typography>
               </TableCell>
               <TableCell>
-                <Typography color="textSecondary" variant="h6">
+                <Typography variant="subtitle1">
                   Assigned
                 </Typography>
               </TableCell>
               <TableCell>
-                <Typography color="textSecondary" variant="h6">
+                <Typography variant="subtitle1">
                   Name
                 </Typography>
               </TableCell>
               <TableCell>
-                <Typography color="textSecondary" variant="h6">
+                <Typography variant="subtitle1">
                   Priority
                 </Typography>
               </TableCell>
               <TableCell align="right">
-                <Typography color="textSecondary" variant="h6">
+                <Typography variant="subtitle1">
                   Budget
                 </Typography>
               </TableCell>
@@ -131,7 +131,6 @@ const ProductPerfomance = () => {
                       backgroundColor: product.pbg,
                       color: "#fff",
                     }}
-                    size="small"
                     label={product.priority}
                   ></Chip>
                 </TableCell>

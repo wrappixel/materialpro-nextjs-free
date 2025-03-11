@@ -1,4 +1,4 @@
-import React from "react";
+
 import {
   Typography,
   Avatar,
@@ -10,32 +10,30 @@ import {
   ListItemText,
   ListItemButton,
   Badge,
+  CardContent,
+  IconButton,
 } from "@mui/material";
+
+import { Icon } from "@iconify/react";
 
 const contacts = [
   {
-    img: "/images/users/1.jpg",
-    title: "Oliver Jake",
-    subtext: "info@oliver.com",
+    img: '/images/profile/user-9.jpg',
+    title: "James Smith",
+    subtext: "you were in video call",
     status: "primary.main",
   },
   {
-    img: "/images/users/2.jpg",
-    title: "Jack Connor",
-    subtext: "info@jack.com",
+    img: '/images/profile/user-2.jpg',
+    title: "Joseph Garciar",
+    subtext: "you were in video call",
     status: "secondary.main",
   },
   {
-    img: "/images/users/3.jpg",
-    title: "Harry Callum",
-    subtext: "info@harry.com",
+    img: '/images/profile/user-4.jpg',
+    title: "Maria Rodriguez",
+    subtext: "you missed john call",
     status: "error.main",
-  },
-  {
-    img: "/images/users/4.jpg",
-    title: "Jacob Reece",
-    subtext: "info@jacob.com",
-    status: "warning.main",
   },
 ];
 
@@ -43,41 +41,73 @@ const MyContacts = () => {
   return (
     <>
       <Card variant="outlined" sx={{ p: 0 }}>
-        <Box
-          px={3}
-          py={2}
-          bgcolor="primary.main"
-          color="white"
-          borderRadius="0 !important"
-          mb="-15px"
-        >
-          <Typography variant="h5">My Contacts</Typography>
-          <Typography variant="subtitle1">Checkout my contacts here</Typography>
-        </Box>
-        <Box pt={2}>
+        <CardContent sx={{ pb: 1 }}>
+          <Box>
+            <Typography variant="h5">My Contacts</Typography>
+            <Typography variant="subtitle1" color='textSecondary'>
+              Checkout my contacts here
+            </Typography>
+          </Box>
+        </CardContent>
+        <Box>
           <List>
             {contacts.map((contact, i) => (
-              <ListItem key={i}>
-                <ListItemButton>
+              <ListItem
+                key={i}
+                sx={{
+                  p: 0,
+                  '& .MuiListItemSecondaryAction-root': {
+                    right: '30px'
+                  }
+                }}
+                secondaryAction={
+                  <Box display="flex" alignItems="center" gap={1}>
+                    <IconButton edge="end" size="small" aria-label="delete" color="error">
+                      <Icon icon="solar:videocamera-linear" height={18} />
+                    </IconButton>
+                    <IconButton edge="end" size="small" aria-label="delete" color="primary">
+                      <Icon icon="solar:incoming-call-linear" height={18} />
+                    </IconButton>
+                  </Box>
+                }
+              >
+                <ListItemButton
+                  sx={{
+                    gap: "12px",
+                    padding: "15px  30px",
+                  }}
+                >
                   <ListItemAvatar>
                     <Badge
                       variant="dot"
                       sx={{
                         ".MuiBadge-badge": {
                           backgroundColor: contact.status,
+                          top: "5px",
+                          right: "8px",
+                          border: "1px solid",
+                          borderColor: "background.paper",
                         },
                       }}
                     >
-                      <Avatar src={contact.img} alt="1" />
+                      <Avatar
+                        src={contact.img}
+                        alt="user-1"
+                        sx={{ width: 48, height: 48 }}
+                      />
                     </Badge>
                   </ListItemAvatar>
                   <ListItemText
-                    primary={contact.title}
-                    primaryTypographyProps={{
-                      fontSize: "16px",
-                      fontWeight: 500,
-                    }}
-                    secondary={contact.subtext}
+                    primary={
+                      <Typography sx={{ fontSize: "16px", fontWeight: 500, mb: "4px" }}>
+                        {contact.title}
+                      </Typography>
+                    }
+                    secondary={
+                      <Typography sx={{ fontSize: "14px", color: "text.secondary" }}>
+                        {contact.subtext}
+                      </Typography>
+                    }
                   />
                 </ListItemButton>
               </ListItem>

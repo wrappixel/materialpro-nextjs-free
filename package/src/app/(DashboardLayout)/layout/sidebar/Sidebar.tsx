@@ -13,7 +13,7 @@ const Sidebar = () => {
   const lgUp = useMediaQuery((theme: any) => theme.breakpoints.up("lg"));
   const { isMobileSidebar, setIsMobileSidebar } = useContext(DashboardContext);
 
-  const sidebarWidth = "270px";
+  const sidebarWidth = "256px";
 
   if (lgUp) {
     return (
@@ -51,22 +51,18 @@ const Sidebar = () => {
             }}
 
           >
-            <Box sx={{
-              height: "calc(100vh - 70px)",
-              overflow: "auto",
-              borderRadius: "0px",
+            <SidebarProfile />
+            <Scrollbar sx={{
+              height: "calc(100% - 270px)"
             }}>
-              <Scrollbar sx={{
-                height: "calc(100% - 73px)"
-              }}>
-                {/* ------------------------------------------- */}
-                {/* Sidebar Items */}
-                {/* ------------------------------------------- */}
-                <SidebarProfile />
-                <Box mt={3}><SidebarItems /></Box>
-                <Upgrade />
-              </Scrollbar>
-            </Box>
+              {/* ------------------------------------------- */}
+              {/* Sidebar Items */}
+              {/* ------------------------------------------- */}
+
+              <SidebarItems />
+              <Upgrade />
+            </Scrollbar>
+
           </Box>
         </Drawer >
       </Box >

@@ -1,15 +1,15 @@
 'use client'
 import { Grid2 as Grid, Box } from '@mui/material';
-import PageContainer from '@/app/(DashboardLayout)/components/container/PageContainer';
 // components
 import SalesOverview from '@/app/(DashboardLayout)/components/dashboard/TheSalesOverview';
-import Blogcard from '@/app/(DashboardLayout)/components/dashboard/TheBlogCard';
+import OurVisitors from '@/app/(DashboardLayout)/components/dashboard/TheOurVisitors';
 import ProfileCard from "@/app/(DashboardLayout)/components/dashboard/TheProfileCard";
 import MyContacts from "@/app/(DashboardLayout)/components/dashboard/TheMyContacts";
 import ActivityTimeline from "@/app/(DashboardLayout)/components/dashboard/TheActivityTimeline";
+
 const Dashboard = () => {
   return (
-    (<PageContainer title="Dashboard" description="this is Dashboard">
+    (
       <Box>
         <Grid container spacing={3}>
           <Grid
@@ -24,7 +24,7 @@ const Dashboard = () => {
               xs: 12,
               lg: 4
             }}>
-            <Blogcard />
+            <OurVisitors />
           </Grid>
           <Grid
             size={{
@@ -49,7 +49,7 @@ const Dashboard = () => {
           </Grid>
         </Grid>
       </Box>
-    </PageContainer>)
+    )
   );
 }
 

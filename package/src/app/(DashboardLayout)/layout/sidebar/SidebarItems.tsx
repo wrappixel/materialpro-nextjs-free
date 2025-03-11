@@ -22,7 +22,7 @@ const renderMenuItems = (items: any[], pathDirect: string) => {
     if (item.subheader) {
       // Display Subheader
       return (
-        <Box sx={{ margin: "0 -24px" }} key={item.subheader}>
+        <Box sx={{ margin: "0 -24px", textTransform: 'uppercase', '& .MuiListSubheader-root': { fontWeight: '600 !important' } }} key={item.subheader}>
           <Menu subHeading={item.subheader} key={item.subheader}>
             <></>
           </Menu>
@@ -34,7 +34,7 @@ const renderMenuItems = (items: any[], pathDirect: string) => {
     if (item.children) {
       return (
         <Submenu key={item.id} title={item.title}
-
+          borderRadius='999px'
           icon={Itemicon}
         >
           {renderMenuItems(item.children, pathDirect)

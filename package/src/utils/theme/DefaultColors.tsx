@@ -66,13 +66,16 @@ const baselightTheme = createTheme({
       hoverOpacity: 0.02,
       hover: '#EDF5FD',
     },
+
     divider: '#ebf1f6',
     background: {
       default: '#EEF5F9',
       paper: '#ffffff',
     },
   },
-
+  shape: {
+    borderRadius: 10,
+  },
   typography: {
     fontFamily: poppins.style.fontFamily,
     h1: {
@@ -146,8 +149,15 @@ const baselightTheme = createTheme({
         ".simplebar-scrollbar:before": {
           background: " #DFE5EF!important",
         },
+        ".rounded-bars .apexcharts-bar-series.apexcharts-plot-series .apexcharts-series path":
+        {
+          clipPath: "inset(0 0 5% 0 round 20px)",
+        },
         '.MuiBox-root': {
           borderRadius: theme.shape.borderRadius,
+        },
+        '.MuiTypography-root, .MuiListSubheader-root, .MuiChip-label': {
+          fontFamily: '"poppins", sans !important'
         },
 
       },
@@ -191,7 +201,7 @@ const baselightTheme = createTheme({
         root: {
           borderRadius: "7px",
           padding: "0",
-          boxShadow: "0px 7px 30px 0px rgba(90, 114, 123, 0.11)",
+          boxShadow: "0px 3px 4px 0px rgba(0, 0, 0, 0.03),0px 0px 1px 0px rgba(0, 0, 0, 0.1)",
         },
       },
     },
@@ -250,14 +260,12 @@ const baselightTheme = createTheme({
     MuiOutlinedInput: {
       styleOverrides: {
         root: {
-          "& .MuiOutlinedInput-notchedOutline": {
-            borderColor:
-              theme.palette.mode === "dark"
-                ? theme.palette.grey[200]
-                : theme.palette.grey[300],
+          '& .MuiOutlinedInput-notchedOutline': {
+            borderColor: '#e5eaef !important',
           },
-          "&:hover .MuiOutlinedInput-notchedOutline": {
-            borderColor: theme.palette.grey[300],
+          borderRadius: "7px",
+          '&.Mui-focused .MuiOutlinedInput-notchedOutline, &:hover .MuiOutlinedInput-notchedOutline': {
+            borderColor: '#1B84FF !important'
           },
         },
         input: {

@@ -3,8 +3,6 @@
 import Link from 'next/link';
 import { Grid2 as Grid, Box, Card, Stack, Typography } from '@mui/material';
 
-// components
-import PageContainer from '@/app/(DashboardLayout)/components/container/PageContainer';
 
 import AuthLogin from '../auth/AuthLogin';
 import AuthLogo from '@/app/(DashboardLayout)/layout/shared/logo/LogoDark';
@@ -13,7 +11,7 @@ import AuthLogo from '@/app/(DashboardLayout)/layout/shared/logo/LogoDark';
 const Login2 = () => {
 
     return (
-        (<PageContainer title="Login" description="this is Login page" >
+        (
             <Box
                 sx={{
                     position: 'relative',
@@ -73,7 +71,7 @@ const Login2 = () => {
                     </Grid>
                 </Grid>
             </Box>
-        </PageContainer>)
+        )
     );
 };
 

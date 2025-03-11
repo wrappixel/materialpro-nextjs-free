@@ -1,7 +1,7 @@
 import React from "react";
 
 import {
-  Card,
+
   Box,
   Avatar,
   Stack,
@@ -10,6 +10,10 @@ import {
   Button,
   MenuItem,
   LinearProgress,
+  IconButton,
+
+  useTheme,
+  Divider,
 } from "@mui/material";
 import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
@@ -22,48 +26,115 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 
-import { IconHeartFilled, IconMessage } from "@tabler/icons-react";
 
+import Link from "next/link";
+import { Icon } from "@iconify/react";
+
+import CustomSelect from "../forms/theme-elements/CustomSelect";
 import CustomFormLabel from "../forms/theme-elements/CustomFormLabel";
 import CustomTextField from "../forms/theme-elements/CustomTextField";
-import CustomSelect from "../forms/theme-elements/CustomSelect";
+import DashboardCard from "../shared/DashboardCard";
+
+
+
+
 
 const ActivityTimeline = () => {
+  const theme = useTheme();
   const [value, setValue] = React.useState("1");
 
-  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
   };
 
   // select
-  const [number, setNumber] = React.useState("");
+  const [, setNumber] = React.useState("");
 
   const handleChange3 = (event: any) => {
     setNumber(event.target.value);
   };
 
   return (<>
-    <Card variant="outlined" sx={{ p: 0 }}>
+    <DashboardCard
+      title="Profile Activitiy"
+      subtitle="Ample Admin Vs Pixel Admin"
+    >
       <Box sx={{ width: "100%", typography: "body1" }}>
         <TabContext value={value}>
-          <Box>
+          <Box
+            sx={{
+              flexGrow: 1,
+              maxWidth: { xs: 320, sm: "100%" },
+            }}
+          >
             <TabList
               onChange={handleChange}
               aria-label="lab API tabs example"
               variant="fullWidth"
+              TabIndicatorProps={{ style: { display: "none" } }}
+              sx={{
+                "& .MuiTabs-flexContainer": {
+                  gap: "20px",
+                  overflow: {
+                    xs: "auto",
+                    sm: "unset",
+                  },
+                },
+                "& .MuiTab-root": {
+                  padding: "20px 16px",
+                  minHeight: "100px",
+                  border: `1px dashed ${theme.palette.divider} !important`,
+                  borderRadius: theme.shape,
+                  color: "text.primary",
+                  borderBottom: "2px solid transparent",
+                  "&.Mui-selected": {
+                    border: `1px solid ${theme.palette.divider} !important`,
+                    color: "primary.main",
+                    borderBottom: `2px solid ${theme.palette.primary.main} !important`,
+                  },
+                },
+              }}
             >
-              <Tab label="Activity" value="1" />
-              <Tab label="Profile" value="2" />
-              <Tab label="Settings" value="3" />
+              <Tab
+                icon={<Icon icon="solar:user-circle-linear" height={20} />}
+                label="Activity"
+                value="1"
+              />
+              <Tab
+                icon={<Icon icon="solar:user-circle-linear" height={20} />}
+                label="Profile"
+                value="2"
+              />
+              <Tab
+                icon={<Icon icon="solar:inbox-linear" height={20} />}
+                label="Inbox"
+                value="3"
+              />
+              <Tab
+                icon={<Icon icon="solar:settings-outline" height={20} />}
+                label="Settings"
+                value="4"
+              />
             </TabList>
           </Box>
-          <TabPanel value="1">
+          <TabPanel
+            value="1"
+            sx={{
+              "&.MuiTabPanel-root": {
+                px: 0,
+                pb: 0,
+              },
+            }}
+          >
             <Timeline
               sx={{
                 mt: -2,
                 [`& .${timelineItemClasses.root}:before`]: {
                   flex: 0,
                   padding: 0,
+                },
+                "&.MuiTimeline-root": {
+                  px: 0,
                 },
               }}
             >
@@ -76,21 +147,53 @@ const ActivityTimeline = () => {
                       boxShadow: "none",
                     }}
                   >
-                    <Avatar src="/images/users/1.jpg" alt="user" />
+                    <Avatar
+                      src="/images/users/1.jpg"
+                      alt="user"
+                      sx={{ width: 56, height: 56 }}
+                    />
                   </TimelineDot>
                   <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                  <Stack direction="row" alignItems="center" spacing={1}>
-                    <Typography variant="h6">John Doe</Typography>
-                    <Typography variant="subtitle1" fontSize="12px">
-                      5 minutes ago
-                    </Typography>
+                  <Stack
+                    direction="row"
+                    justifyContent="space-between"
+                    alignItems="center"
+                    spacing={1}
+                  >
+                    <Box>
+                      <Stack
+                        direction="row" flexWrap='wrap'
+                        alignItems="center"
+                        spacing={1}
+                        mt={1}
+                        mb={1}
+                      >
+                        <Typography variant="h6">John Doe</Typography>
+                        <Typography variant="subtitle1" color="textSecondary">
+                          5 minutes ago
+                        </Typography>
+                      </Stack>
+                      <Typography
+                        variant="subtitle1"
+                        color="textSecondary"
+                        mb={2}
+                      >
+                        assign a new task{" "}
+                        <Link href="/">
+                          <Typography component="span" color="primary.main">
+                            Design weblayout
+                          </Typography>
+                        </Link>
+                      </Typography>
+                    </Box>
+                    <IconButton aria-label="more" id="long-button">
+                      <Icon icon="solar:menu-dots-line-duotone" height={20} />
+                    </IconButton>
                   </Stack>
-                  <Typography variant="subtitle1" fontSize="12px" mb={2}>
-                    assign a new task Design weblayout
-                  </Typography>
-                  <Grid container spacing={3}>
+
+                  <Grid container spacing={3} mb={3}>
                     <Grid
                       size={{
                         xs: 12,
@@ -100,7 +203,11 @@ const ActivityTimeline = () => {
                       <Avatar
                         src="/images/big/img1.jpg"
                         alt="bg1"
-                        sx={{ borderRadius: 0, width: "100%", height: 135 }}
+                        sx={{
+                          borderRadius: (theme: any) => theme.shape,
+                          width: "100%",
+                          height: 80,
+                        }}
                       />
                     </Grid>
                     <Grid
@@ -112,7 +219,11 @@ const ActivityTimeline = () => {
                       <Avatar
                         src="/images/big/img2.jpg"
                         alt="bg1"
-                        sx={{ borderRadius: 0, width: "100%", height: 135 }}
+                        sx={{
+                          borderRadius: (theme: any) => theme.shape,
+                          width: "100%",
+                          height: 80,
+                        }}
                       />
                     </Grid>
                     <Grid
@@ -124,7 +235,11 @@ const ActivityTimeline = () => {
                       <Avatar
                         src="/images/big/img3.jpg"
                         alt="bg1"
-                        sx={{ borderRadius: 0, width: "100%", height: 135 }}
+                        sx={{
+                          borderRadius: (theme: any) => theme.shape,
+                          width: "100%",
+                          height: 80,
+                        }}
                       />
                     </Grid>
                     <Grid
@@ -136,28 +251,17 @@ const ActivityTimeline = () => {
                       <Avatar
                         src="/images/big/img4.jpg"
                         alt="bg1"
-                        sx={{ borderRadius: 0, width: "100%", height: 135 }}
+                        sx={{
+                          borderRadius: (theme: any) => theme.shape,
+                          width: "100%",
+                          height: 80,
+                        }}
                       />
                     </Grid>
                   </Grid>
-                  <Stack direction="row" spacing={1} mb={3}>
-                    <Button
-                      size="small"
-                      color="primary"
-                      startIcon={<IconMessage width={18} />}
-                    >
-                      Comments
-                    </Button>
-                    <Button
-                      size="small"
-                      color="error"
-                      startIcon={<IconHeartFilled width={18} />}
-                    >
-                      5 Likes
-                    </Button>
-                  </Stack>
                 </TimelineContent>
               </TimelineItem>
+
               <TimelineItem>
                 <TimelineSeparator>
                   <TimelineDot
@@ -167,123 +271,54 @@ const ActivityTimeline = () => {
                       boxShadow: "none",
                     }}
                   >
-                    <Avatar src="/images/users/2.jpg" alt="user" />
+                    <Avatar
+                      src="/images/users/2.jpg"
+                      alt="user"
+                      sx={{ width: 56, height: 56 }}
+                    />
                   </TimelineDot>
                   <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                  <Stack direction="row" alignItems="center" spacing={1}>
-                    <Typography variant="h6">James Smith</Typography>
-                    <Typography variant="subtitle1" fontSize="12px">
-                      5 minutes ago
-                    </Typography>
-                  </Stack>
-                  <Grid container spacing={3}>
-                    <Grid
-                      size={{
-                        xs: 12,
-                        sm: 4,
-                        lg: 3
-                      }}>
-                      <Avatar
-                        src="/images/big/img4.jpg"
-                        alt="bg1"
-                        sx={{ borderRadius: 0, width: "100%", height: 135 }}
-                      />
-                    </Grid>
-                    <Grid
-                      size={{
-                        xs: 12,
-                        sm: 8,
-                        lg: 9
-                      }}>
-                      <Typography
-                        variant="subtitle1"
-                        fontSize="12px"
-                        mb={2}
+                  <Stack
+                    direction="row"
+                    justifyContent="space-between"
+                    alignItems="center"
+                    spacing={1}
+                  >
+                    <Box>
+                      <Stack
+                        direction="row" flexWrap='wrap'
+                        alignItems="center"
+                        spacing={1}
                         mt={1}
                       >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Integer nec odio. Praesent libero. Sed cursus
-                        ante dapibus diam.
-                      </Typography>
-                      <Button
-                        size="small"
-                        color="primary"
-                        variant="contained"
-                      >
-                        Design Layout
-                      </Button>
-                    </Grid>
-                  </Grid>
-                  <Stack direction="row" spacing={1} mb={3}>
-                    <Button
-                      size="small"
-                      color="primary"
-                      startIcon={<IconMessage width={18} />}
-                    >
-                      Comments
-                    </Button>
-                    <Button
-                      size="small"
-                      color="error"
-                      startIcon={<IconHeartFilled width={18} />}
-                    >
-                      5 Likes
-                    </Button>
+                        <Typography variant="h6">Canry Smith</Typography>
+                        <Typography variant="subtitle1" color="textSecondary">
+                          5 minutes ago
+                        </Typography>
+                      </Stack>
+                    </Box>
+                    <IconButton aria-label="more" id="long-button">
+                      <Icon icon="solar:menu-dots-line-duotone" height={20} />
+                    </IconButton>
                   </Stack>
-                </TimelineContent>
-              </TimelineItem>
-              <TimelineItem>
-                <TimelineSeparator>
-                  <TimelineDot
-                    sx={{
-                      backgroundColor: "transparent",
-                      margin: 0,
-                      boxShadow: "none",
-                    }}
-                  >
-                    <Avatar src="/images/users/3.jpg" alt="user" />
-                  </TimelineDot>
-                  <TimelineConnector />
-                </TimelineSeparator>
-                <TimelineContent>
-                  <Stack direction="row" alignItems="center" spacing={1}>
-                    <Typography variant="h6">Maria Smith</Typography>
-                    <Typography variant="subtitle1" fontSize="12px">
-                      5 minutes ago
-                    </Typography>
-                  </Stack>
-                  <Typography
-                    variant="subtitle1"
-                    fontSize="12px"
-                    mb={2}
+                  <Box
+                    bgcolor="primary.light"
+                    fontSize="15px"
+                    color="text.secondary"
                     mt={1}
+                    p="20px"
                   >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Integer nec odio. Praesent libero. Sed cursus ante dapibus
                     diam. Sed nisi. Nulla quis sem at nibh elementum
-                    imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec
-                    tellus sed augue semper
-                  </Typography>
-                  <Stack direction="row" spacing={1} mb={3}>
-                    <Button
-                      size="small"
-                      color="primary"
-                      startIcon={<IconMessage width={18} />}
-                    >
-                      Comments
-                    </Button>
-                    <Button
-                      size="small"
-                      color="error"
-                      startIcon={<IconHeartFilled width={18} />}
-                    >
-                      5 Likes
-                    </Button>
-                  </Stack>
+                    imperdiet. Duis sagittis ipsum. Praesent mauris.
+                  </Box>
                 </TimelineContent>
               </TimelineItem>
+
+              {/* 3 */}
               <TimelineItem>
                 <TimelineSeparator>
                   <TimelineDot
@@ -293,72 +328,147 @@ const ActivityTimeline = () => {
                       boxShadow: "none",
                     }}
                   >
-                    <Avatar src="/images/users/4.jpg" alt="user" />
+                    <Avatar
+                      src="/images/users/4.jpg"
+                      alt="user"
+                      sx={{ width: 56, height: 56 }}
+                    />
                   </TimelineDot>
                   <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
                   <Stack
                     direction="row"
+                    justifyContent="space-between"
                     alignItems="center"
                     spacing={1}
                     mb={1}
                   >
-                    <Typography variant="h6">John Smith</Typography>
-                    <Typography variant="subtitle1" fontSize="12px">
-                      5 minutes ago
-                    </Typography>
+                    <Box>
+                      <Stack
+                        direction="row" flexWrap='wrap'
+                        alignItems="center"
+                        spacing={1}
+                        mt={1}
+                      >
+                        <Typography variant="h6">James Smith</Typography>
+                        <Typography variant="subtitle1" color="textSecondary">
+                          5 minutes ago
+                        </Typography>
+                      </Stack>
+                    </Box>
+                    <IconButton aria-label="more" id="long-button">
+                      <Icon icon="solar:menu-dots-line-duotone" height={20} />
+                    </IconButton>
                   </Stack>
-                  <Box
-                    bgcolor="primary.light"
-                    color="primary.main"
-                    fontSize="12px"
-                    p={2}
-                    mb={3}
+                  <Grid container spacing={2}>
+                    <Grid
+                      size={{
+                        xs: 12,
+                        lg: 5
+                      }}>
+                      <Box
+                        display="flex"
+                        alignItems="center"
+                        gap={2}
+                        border={1}
+                        borderColor="divider"
+                        padding="20px 30px"
+                      >
+                        <img
+                          src='/images/svgs/icon-zip.svg'
+                          width={38}
+                          alt="icon"
+                          height={40}
+                        />
+                        <Box>
+                          <Typography variant="h6" mb={1}>
+                            Payments.zip
+                          </Typography>
+                          <Typography
+                            variant="subtitle2"
+                            color="textSecondary"
+                          >
+                            150kb
+                          </Typography>
+                        </Box>
+                      </Box>
+                    </Grid>
+                    <Grid
+                      size={{
+                        xs: 12,
+                        lg: 5
+                      }}>
+                      <Box
+                        display="flex"
+                        alignItems="center"
+                        gap={2}
+                        border={1}
+                        borderColor="divider"
+                        padding="20px 30px"
+                      >
+                        <img
+                          src='/images/svgs/icon-figma2.svg'
+                          width={38}
+                          alt="icon"
+                          height={40}
+                        />
+                        <Box>
+                          <Typography variant="h6" mb={1}>
+                            Payments.zip
+                          </Typography>
+                          <Typography
+                            variant="subtitle2"
+                            color="textSecondary"
+                          >
+                            150kb
+                          </Typography>
+                        </Box>
+                      </Box>
+                    </Grid>
+                    <Grid
+                      size={{
+                        xs: 12,
+                        lg: 2
+                      }}>
+                      <Box
+                        display="flex"
+                        alignItems="center"
+                        justifyContent="center"
+                        gap={2}
+                        bgcolor="primary.light"
+                        padding="20px 30px"
+                        height="100%"
+                      >
+                        <Typography variant="h6" color="textSecondary">
+                          2+
+                        </Typography>
+                      </Box>
+                    </Grid>
+                  </Grid>
+
+                  <Typography
+                    variant="subtitle1"
+                    color="textSecondary"
+                    fontSize="15px"
+                    mt={1}
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt
-                  </Box>
-                </TimelineContent>
-              </TimelineItem>
-              <TimelineItem>
-                <TimelineSeparator>
-                  <TimelineDot
-                    sx={{
-                      backgroundColor: "transparent",
-                      margin: 0,
-                      boxShadow: "none",
-                    }}
-                  >
-                    <Avatar src="/images/users/5.jpg" alt="user" />
-                  </TimelineDot>
-                </TimelineSeparator>
-                <TimelineContent>
-                  <Stack
-                    direction="row"
-                    alignItems="center"
-                    spacing={1}
-                    mb={1}
-                  >
-                    <Typography variant="h6">John Smith</Typography>
-                    <Typography variant="subtitle1" fontSize="12px">
-                      5 minutes ago
-                    </Typography>
-                  </Stack>
-                  <Box
-                    bgcolor="secondary.light"
-                    color="secondary.main"
-                    fontSize="12px"
-                    p={2}
-                  >
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt
-                  </Box>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer nec odio. Praesent libero.
+                  </Typography>
                 </TimelineContent>
               </TimelineItem>
             </Timeline>
           </TabPanel>
-          <TabPanel value="2">
+          <TabPanel
+            value="2"
+            sx={{
+              "&.MuiTabPanel-root": {
+                px: 0,
+                pb: 0,
+              },
+            }}
+          >
             <Grid container spacing={3}>
               <Grid
                 size={{
@@ -409,7 +519,7 @@ const ActivityTimeline = () => {
                 </Typography>
               </Grid>
             </Grid>
-            <Typography variant="subtitle2" fontSize="12px" mt={4}>
+            <Typography variant="subtitle2" color="textSecondary" mt={4}>
               Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
               arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
               justo. Nullam dictum felis eu pede mollis pretium. Integer
@@ -417,25 +527,26 @@ const ActivityTimeline = () => {
               vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
               consequat vitae, eleifend ac, enim.
             </Typography>
-            <Typography variant="subtitle2" fontSize="12px" mt={2}>
+            <Typography variant="subtitle2" color="textSecondary" mt={2}>
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry&apos;s standard dummy
-              text ever since the 1500s, when an unknown printer took a galley
-              of type and scrambled it to make a type specimen book. It has
-              survived not only five centuries
+              industry. Lorem Ipsum has been the industry&apos;s standard
+              dummy text ever since the 1500s, when an unknown printer took a
+              galley of type and scrambled it to make a type specimen book. It
+              has survived not only five centuries
             </Typography>
-            <Typography variant="subtitle2" fontSize="12px" mt={2}>
+            <Typography variant="subtitle2" color="textSecondary" mt={2}>
               It was popularised in the 1960s with the release of Letraset
               sheets containing Lorem Ipsum passages, and more recently with
               desktop publishing software like Aldus PageMaker including
               versions of Lorem Ipsum.
             </Typography>
 
-            <Typography variant="h6" mt={5} mb={4}>
+            <Typography variant="h5" mt={5} pb={2}>
               Skill set
             </Typography>
+            <Divider />
 
-            <Stack spacing={3}>
+            <Stack spacing={3} mt={3}>
               <Box>
                 <Stack
                   direction="row"
@@ -506,7 +617,74 @@ const ActivityTimeline = () => {
               </Box>
             </Stack>
           </TabPanel>
-          <TabPanel value="3">
+          <TabPanel
+            value="3"
+            sx={{
+              "&.MuiTabPanel-root": {
+                px: 0,
+                pb: 0,
+              },
+            }}
+          >
+            <form>
+              <CustomFormLabel
+                sx={{
+                  mt: 0,
+                }}
+                htmlFor="text-name"
+              >
+                Name
+              </CustomFormLabel>
+              <CustomTextField id="text-name" variant="outlined" fullWidth />
+              <CustomFormLabel htmlFor="text-email">Email</CustomFormLabel>
+              <CustomTextField id="text-email" variant="outlined" fullWidth />
+              <CustomFormLabel htmlFor="text-password">
+                Password
+              </CustomFormLabel>
+              <CustomTextField
+                id="text-password"
+                type="password"
+                variant="outlined"
+                fullWidth
+              />
+              <CustomFormLabel htmlFor="text-address">
+                Address
+              </CustomFormLabel>
+              <CustomTextField
+                id="text-address"
+                variant="outlined"
+                fullWidth
+              />
+              <CustomFormLabel htmlFor="text-address">Select</CustomFormLabel>
+              <CustomSelect
+                fullWidth
+                id="standard-select-number"
+                variant="outlined"
+                value={1}
+                onChange={handleChange3}
+                sx={{
+                  mb: 2,
+                }}
+              >
+                <MenuItem value={1}>Option 1</MenuItem>
+                <MenuItem value={2}>Option 2</MenuItem>
+                <MenuItem value={3}>Option 3</MenuItem>
+              </CustomSelect>
+
+              <Button variant="contained" color="primary">
+                Submit
+              </Button>
+            </form>
+          </TabPanel>
+          <TabPanel
+            value="4"
+            sx={{
+              "&.MuiTabPanel-root": {
+                px: 0,
+                pb: 0,
+              },
+            }}
+          >
             <form>
               <CustomFormLabel
                 sx={{
@@ -559,7 +737,7 @@ const ActivityTimeline = () => {
           </TabPanel>
         </TabContext>
       </Box>
-    </Card>
+    </DashboardCard>
   </>);
 };
 
