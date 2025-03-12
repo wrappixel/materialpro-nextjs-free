@@ -140,6 +140,7 @@ const baselightTheme = createTheme({
             "rgba(145 158 171 / 30%) 0px 0px 2px 0px, rgba(145 158 171 / 12%) 0px 12px 24px -4px !important",
         },
         a: {
+          color: '#3A4752',
           textDecoration: "none",
         },
         ".MuiTimelineConnector-root": {

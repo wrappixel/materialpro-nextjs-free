@@ -11,6 +11,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+       <head>
+       <link rel="icon" href="/images/favicon.ico" />
+        <title>MaterialPro React + Ts + Mui</title>
+      </head> 
       <body>
         <ThemeProvider theme={baselightTheme}>
           <DashboardContextProvider>

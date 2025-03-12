@@ -1,0 +1,151 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/authentication/login",
+      "regex": "^/authentication/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/authentication/login(?:/)?$"
+    },
+    {
+      "page": "/authentication/register",
+      "regex": "^/authentication/register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/authentication/register(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/layout/footer",
+      "regex": "^/layout/footer(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/layout/footer(?:/)?$"
+    },
+    {
+      "page": "/sample-page",
+      "regex": "^/sample\\-page(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sample\\-page(?:/)?$"
+    },
+    {
+      "page": "/utilities/alerts",
+      "regex": "^/utilities/alerts(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/utilities/alerts(?:/)?$"
+    },
+    {
+      "page": "/utilities/autocomplete",
+      "regex": "^/utilities/autocomplete(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/utilities/autocomplete(?:/)?$"
+    },
+    {
+      "page": "/utilities/buttons",
+      "regex": "^/utilities/buttons(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/utilities/buttons(?:/)?$"
+    },
+    {
+      "page": "/utilities/checkbox",
+      "regex": "^/utilities/checkbox(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/utilities/checkbox(?:/)?$"
+    },
+    {
+      "page": "/utilities/forms",
+      "regex": "^/utilities/forms(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/utilities/forms(?:/)?$"
+    },
+    {
+      "page": "/utilities/images",
+      "regex": "^/utilities/images(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/utilities/images(?:/)?$"
+    },
+    {
+      "page": "/utilities/pagination",
+      "regex": "^/utilities/pagination(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/utilities/pagination(?:/)?$"
+    },
+    {
+      "page": "/utilities/radio",
+      "regex": "^/utilities/radio(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/utilities/radio(?:/)?$"
+    },
+    {
+      "page": "/utilities/ratings",
+      "regex": "^/utilities/ratings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/utilities/ratings(?:/)?$"
+    },
+    {
+      "page": "/utilities/slider",
+      "regex": "^/utilities/slider(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/utilities/slider(?:/)?$"
+    },
+    {
+      "page": "/utilities/switch",
+      "regex": "^/utilities/switch(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/utilities/switch(?:/)?$"
+    },
+    {
+      "page": "/utilities/table",
+      "regex": "^/utilities/table(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/utilities/table(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}

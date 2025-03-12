@@ -13,7 +13,7 @@ const Upgrade = () => (
     <>
       <Box>
         <Typography variant="h6" mb={1}>Unlimited Access</Typography>
-        <Button color="primary" target="_blank" href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376" variant="contained" aria-label="logout" size="small">
+        <Button color="primary" target="_blank" href="https://www.wrappixel.com/templates/materialpro-react-admin/?ref=376" variant="contained" aria-label="logout" size="small">
           Upgrade
         </Button>
       </Box>

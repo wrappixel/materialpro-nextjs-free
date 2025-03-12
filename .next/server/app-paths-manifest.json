@@ -1,0 +1,21 @@
+{
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/authentication/login/page": "app/authentication/login/page.js",
+  "/authentication/register/page": "app/authentication/register/page.js",
+  "/(DashboardLayout)/layout/footer/page": "app/(DashboardLayout)/layout/footer/page.js",
+  "/(DashboardLayout)/page": "app/(DashboardLayout)/page.js",
+  "/(DashboardLayout)/sample-page/page": "app/(DashboardLayout)/sample-page/page.js",
+  "/(DashboardLayout)/utilities/checkbox/page": "app/(DashboardLayout)/utilities/checkbox/page.js",
+  "/(DashboardLayout)/utilities/autocomplete/page": "app/(DashboardLayout)/utilities/autocomplete/page.js",
+  "/(DashboardLayout)/utilities/forms/page": "app/(DashboardLayout)/utilities/forms/page.js",
+  "/(DashboardLayout)/utilities/alerts/page": "app/(DashboardLayout)/utilities/alerts/page.js",
+  "/(DashboardLayout)/utilities/buttons/page": "app/(DashboardLayout)/utilities/buttons/page.js",
+  "/(DashboardLayout)/utilities/images/page": "app/(DashboardLayout)/utilities/images/page.js",
+  "/(DashboardLayout)/utilities/radio/page": "app/(DashboardLayout)/utilities/radio/page.js",
+  "/(DashboardLayout)/utilities/pagination/page": "app/(DashboardLayout)/utilities/pagination/page.js",
+  "/(DashboardLayout)/utilities/ratings/page": "app/(DashboardLayout)/utilities/ratings/page.js",
+  "/(DashboardLayout)/utilities/slider/page": "app/(DashboardLayout)/utilities/slider/page.js",
+  "/(DashboardLayout)/utilities/switch/page": "app/(DashboardLayout)/utilities/switch/page.js",
+  "/(DashboardLayout)/utilities/table/page": "app/(DashboardLayout)/utilities/table/page.js"
+}
