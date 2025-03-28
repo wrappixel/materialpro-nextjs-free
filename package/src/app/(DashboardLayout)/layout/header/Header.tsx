@@ -141,7 +141,7 @@ const Header = () => {
         {lgUp ? (
           <>
             <Stack spacing={2} direction="row" alignItems="center">
-              <Button variant="contained" color="success" target="_blank" href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376">
+              <Button variant="contained" color="success" target="_blank" href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376#demos">
                 Check Pro Template
               </Button>
               <Profile />

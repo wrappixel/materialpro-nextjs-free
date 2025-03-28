@@ -12,12 +12,13 @@ const Upgrade = () => (
   >
     <>
       <Box>
-        <Typography variant="h6" mb={1}>Unlimited Access</Typography>
+        <Typography variant="h6" mb={1}>Check Pro
+        Version</Typography>
         <Button color="primary" target="_blank" href="https://www.wrappixel.com/templates/materialpro-react-admin/?ref=376" variant="contained" aria-label="logout" size="small">
-          Upgrade
+          Check
         </Button>
       </Box>
-      <Box mt="-35px">
+      <Box sx={{marginTop:"-35px",marginRight: "-30px"}}>
         <img alt="Remy Sharp" src='/images/backgrounds/rocket.png' width={100} />
       </Box>
     </>
