@@ -18,7 +18,7 @@ const Upgrade = () => (
           Check
         </Button>
       </Box>
-      <Box sx={{marginTop:"-35px",marginRight: "-30px"}}>
+      <Box sx={{marginTop:"-35px",marginRight: "-38px"}}>
         <img alt="Remy Sharp" src='/images/backgrounds/rocket.png' width={100} />
       </Box>
     </>
