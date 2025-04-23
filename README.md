@@ -1,72 +1,64 @@
+
 <p align="center">
    <a href="https://www.wrappixel.com/" target="_blank">
       <img src="https://adminmart.github.io/template_api/images/brand-logo/WrapPixel-Logo.svg" alt="sneat-logo" width="100px" height="100px">
    </a>
 </p>
 <h1 align="center">
-   <a href="https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template/?ref=376" target="_blank" align="center">
-       MaterialPro Free NextJs Admin Template
+   <a href="https://www.wrappixel.com/templates/materialpro-react-admin-lite/?ref=376" target="_blank" align="center">
+       MaterialPro React Admin Free
    </a>
 </h1>
-<p align="center">Download most useful and comprehensive 🚀 Free NextJs admin template built for developers 🛠</p>
+<p align="center">Download most useful and comprehensive 🚀 Free React admin template built for developers 🛠</p>
 
-[![MaterialPro Free NextJs Admin Template Demo Screenshot](https://www.wrappixel.com/wp-content/uploads/2023/08/materialpro-nextjs-free-2.jpg)](https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template/?ref=376)
-
-
-
-
+[![MaterialPro React Admin Free Demo Screenshot](https://www.wrappixel.com/wp-content/uploads/edd/2020/04/materialpro-react-lite-y.jpg)](https://www.wrappixel.com/templates/materialpro-react-admin-lite/?ref=376)
 
 
 
 ## 👋 Introduction
 
-**MaterialPro Free Next.js Admin Template** is a lightweight, professional, and fully responsive **dashboard template** built using **Next.js**, **Material UI (MUI)**, and **TypeScript**. Designed for developers who want a fast and modern starting point, it enables fast development of performant dashboards, simple admin interfaces, and clean, responsive web applications.
+**MaterialPro React Admin Free** is a modern, responsive, and high-performance **React admin dashboard template** built with **React**, **Material UI (MUI)**, **TypeScript**, **Vite**, and **ApexCharts**. 
 
-Packed with essential UI components and following the latest **Material Design** guidelines, MaterialPro Free offers a clean and minimalistic design that’s perfect for building **internal tools**, **SaaS applications**, or **simple admin interfaces**.
+Designed for speed, scalability, and an exceptional developer experience, MaterialPro is perfect for building **SaaS applications**, **admin panels**, **CRM systems**, and **internal dashboards**. 
 
-Built on the powerful trio of **Next.js**, **MUI**, and **TypeScript**, this **free Next.js dashboard** ensures fast performance, great SEO, and an excellent developer experience. Whether you're creating a personal project or a client-facing admin panel, MaterialPro Free is a solid foundation that gets you up and running quickly.
-
+With a clean Material Design aesthetic, powerful UI components, and dynamic data visualizations, it provides everything you need to launch professional-grade dashboards with minimal setup—**completely free and open-source**.
 
 ### 🔑 Key Features
 
 - **Responsive Design**  
-  Delivers a seamless experience across desktops, tablets, and mobile devices with MUI's responsive grid system.
+  Delivers a seamless experience across all devices with a mobile-first layout powered by **Material UI’s responsive grid system**.
 
-- **Material UI Components**  
-  Built entirely with **MUI (Material UI)**—customizable, accessible components that follow Google's Material Design guidelines.
+- **Material UI Styling**  
+  Built entirely with **Material UI (MUI)** components for a polished, consistent look and feel that follows **Google’s Material Design** guidelines.
 
-- **Pre-designed Pages**  
-  Comes with essential pages like dashboards, authentication screens, user profiles, error pages, and more to help you start fast.
+- **Vite-Powered Development**  
+  Experience lightning-fast dev builds and hot module replacement with **Vite**, optimizing performance and developer efficiency.
 
 - **ApexCharts Integration**  
-  Interactive, customizable charts powered by **ApexCharts** for clear and effective data visualization.
+  Visualize complex data effortlessly with **ApexCharts**, offering interactive, customizable charts ideal for dashboards and analytics.
 
-- **Optimized for Performance**  
-  Lightning-fast page loads, image optimization, and best practices built in using Next.js features like dynamic imports and SSR/SSG.
+- **TypeScript Support**  
+  A fully typed codebase ensures improved code quality, better IDE support, and fewer runtime errors.
 
 - **Developer Friendly**  
-  Clean folder structure, modular codebase, and simple theme customization make it easy to build and scale.
-
+  Clean, modular folder structure and reusable components make customization, scalability, and maintenance a breeze—perfect for real-world apps.
 ---
-
-
-
-
 
 ## 🛠️ Notable Libraries and Tools
 
-| **Library / Tool**    | **Description**                                                                 |
-|-----------------------|---------------------------------------------------------------------------------|
-| **Next.js**           | A powerful React framework for building server-rendered and statically generated web applications with routing, SSR, and API routes. |
-| **Material UI (MUI)** | A comprehensive UI component library based on Google's Material Design system, providing responsive, accessible, and highly customizable components. |
-| **ApexCharts**        | A modern charting library used to create interactive and customizable charts, ideal for visualizing dashboard data. |
-| **Emotion**           | A performant and flexible CSS-in-JS library used by MUI for styling components with dynamic and scoped styles. |
-| **MUI Icons**         | A collection of Material Design icons used throughout the dashboard for consistent, scalable UI elements. |
+| **Library / Tool**     | **Description**                                                                 |
+|------------------------|---------------------------------------------------------------------------------|
+| **React**              | A declarative JavaScript library for building modern, component-based user interfaces. |
+| **Material UI (MUI)**  | A comprehensive React UI framework that follows Google's Material Design system, offering pre-built, customizable components. |
+| **ApexCharts**         | A powerful charting library for creating interactive and visually appealing data visualizations. |
+| **TypeScript**         | A statically typed superset of JavaScript that improves code quality, refactoring, and IDE support. |
+| **Vite**               | A lightning-fast frontend build tool that provides instant dev server startup and optimized production builds. |
 
 ---
+
 ## 💾 Installation Guide
 
-Welcome to the **MaterialPro Free NextJs Admin Template**! This guide will walk you through the installation and setup process, so you can get started with building your custom admin dashboard in no time.
+Welcome to the **MaterialPro React Admin Free**! This guide will walk you through the installation and setup process, so you can get started with building your custom admin dashboard in no time.
 
 ### 📝 Steps to Install
 
@@ -75,7 +67,7 @@ Welcome to the **MaterialPro Free NextJs Admin Template**! This guide will walk 
 The easiest way to get started is by cloning the repository or download the zip file. You can do this with the following command:
 
 ```bash
-git clone https://github.com/wrappixel/materialpro-nextjs-free.git
+git clone https://github.com/wrappixel/materialpro-react-lite.git
 ```
 
 #### 2. **Install Dependencies**
@@ -98,51 +90,49 @@ npm run dev
 
 ## 📝 Documentation
 
-Welcome to the **MaterialPro Free NextJs Admin Template** documentation! Whether you're just getting started or looking to explore advanced features, this guide will help you set up and customize your project with ease.
+Welcome to the **MaterialPro React Admin Free** documentation! Whether you're just getting started or looking to explore advanced features, this guide will help you set up and customize your project with ease.
 
-👉 **[Click here to read the full documentation](https://wrappixel.github.io/free-documentation-wp/nextjs/materialpro/index.html?ref=376)**
+👉 **[Click here to read the full documentation](https://wrappixel.github.io/free-documentation-wp/react/materialpro/index.html?ref=376)**
 
 ---
 
 ## 💎 Pro Version
 
-The Pro Version of the **MaterialPro NextJs Admin Dashboard** comes packed with essential features—ideal for personal projects, prototypes, or small-scale applications. When you're ready to level up, the Pro Version unlocks a powerful suite of extras, including multiple theme options, advanced UI widgets, real-time notifications, priority support, and a host of other premium tools designed to supercharge your development workflow.
+The Pro Version of the **MaterialPro React Admin Template** comes packed with essential features—ideal for personal projects, prototypes, or small-scale applications. When you're ready to level up, the Pro Version unlocks a powerful suite of extras, including multiple theme options, advanced UI widgets, real-time notifications, priority support, and a host of other premium tools designed to supercharge your development workflow.
 
 <div style="display: flex; gap: 10px; align-items: center;">
-  <a href="https://materialpro-nextjs-pro.vercel.app/?ref=376" target="_blank">
+  <a href="https://materialpro-react-main.netlify.app/?ref=376" target="_blank">
     <img src="https://img.shields.io/badge/Try_the_Demo-Click_Here-blue" alt="Try the Demo">
   </a>
-  <a href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376" target="_blank">
+  <a href="https://www.wrappixel.com/templates/materialpro-react-admin/?ref=376" target="_blank">
     <img src="https://img.shields.io/badge/Download_Now-Click_Here-green" alt="Download Now">
   </a>
 </div>
 
-[![MaterialPro NextJs Admin Dashboard Demo Screenshot](https://www.wrappixel.com/wp-content/uploads/edd/2025/02/MaterialPro-Nextjs_without.jpg)](https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376)
+[![MaterialPro React Admin Demo Screenshot](https://www.wrappixel.com/wp-content/uploads/edd/2025/01/MaterialPro-React.js.jpg)](https://www.wrappixel.com/templates/materialpro-react-admin/?ref=376)
 
 ---
 
 ## ⚖️ Free vs Pro Version Comparison
 
-The **Free Version** of the **MaterialPro NextJs Admin Dashboard** provides a solid set of features, perfect for personal projects or small applications. However, for businesses or developers looking to unlock more advanced functionality, the **Pro Version** offers exciting features like **multiple themes**, **advanced widgets**, **real-time notifications**, **priority support**, and much more. 
+The **Free Version** of the **MaterialPro React Admin Template** provides a solid set of features, perfect for personal projects or small applications. However, for businesses or developers looking to unlock more advanced functionality, the **Pro Version** offers exciting features like **multiple themes**, **advanced widgets**, **real-time notifications**, **priority support**, and much more. 
 
 
 #### Check out the comparison below to see the key differences between the two versions:
 
 | **Feature**                      | **Free Version**                       | **Pro Version**                                      |
 |-----------------------------------|----------------------------------------|-----------------------------------------------------|
-| **Demo**                          | [![Try the Demo](https://img.shields.io/badge/Try_the_Demo-Click_Here-blue)](https://materialpro-nextjs-free.vercel.app/?ref=376)                               | [![Try the Demo](https://img.shields.io/badge/Try_the_Demo-Click_Here-blue)](https://materialpro-nextjs-pro.vercel.app/?ref=376)                                              |
-| **Download**                      | [![Download Now](https://img.shields.io/badge/Download_Now-Click_Here-green)](https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template/?ref=376)                                | [![Download Now](https://img.shields.io/badge/Download_Now-Click_Here-green)](https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376)                                          |
+| **Demo**                          | [![Try the Demo](https://img.shields.io/badge/Try_the_Demo-Click_Here-blue)](https://materialpro-react-free.netlify.app/?ref=376)                               | [![Try the Demo](https://img.shields.io/badge/Try_the_Demo-Click_Here-blue)](https://materialpro-react-main.netlify.app/?ref=376)                                              |
+| **Download**                      | [![Download Now](https://img.shields.io/badge/Download_Now-Click_Here-green)](https://www.wrappixel.com/templates/materialpro-react-admin-lite/?ref=376)                                | [![Download Now](https://img.shields.io/badge/Download_Now-Click_Here-green)](https://www.wrappixel.com/templates/materialpro-react-admin/?ref=376)                                          |
 | **Responsive Design**             | ✅ Yes                                 | ✅ Yes                                              |
 | **Pre-designed Pages**            | ✅ Basic Pages                         | ✅ Advanced Pages (more layouts & options)           |
 | **Widgets**                       | ✅ Basic Widgets                       | ✅ Advanced Widgets (e.g., weather, charts, maps)    |
 | **Themes**                        | ✅ Default Theme                | ✅ Multiple Themes, Custom Color Skins, and Dark Modes |
-| **Customization**                 | ✅ Limited Customization               | ✅ Full Customization (Complete theme and UI flexibility) |
 | **Support**                       | ✅ Community Support                   | ✅ Priority Support with Direct Contact             |
 | **Additional Components**         | ❌ Limited                             | ✅ Additional Components (Forms, Buttons, More UI Elements) |
 | **Advanced Data Visualization**   | ❌ Basic Charts                        | ✅ Advanced Data Visualizations (graphs, complex charts) |
 | **Multi-Language Support**        | ❌ Not available                       | ✅ Built-in support for multiple languages          |
 | **User Permissions & Roles**      | ❌ No                                  | ✅ User roles and permissions management            |
-| **Customizable Dashboards**       | ❌ Not available                       | ✅ Drag-and-drop customizable dashboards            |
 | **Real-time Notifications**       | ❌ Not available                       | ✅ Real-time notifications for alerts & updates      |
 | **Advanced Analytics & Reporting**| ❌ Basic reports                       | ✅ Advanced analytics with custom reports and filters|
 
@@ -162,17 +152,16 @@ The **Free Version** of the **MaterialPro NextJs Admin Dashboard** provides a so
             <span style="font-size: 16px;">Bootstrap</span>
          </th>
          <th> 
-            <img src="https://skillicons.dev/icons?i=react" height="20" alt="React templates" style="margin-right: 8px;">
-            <span style="font-size: 16px;">React</span>
+            <img src="https://skillicons.dev/icons?i=next" height="20" alt="next templates" style="margin-right: 8px;">
+            <span style="font-size: 16px;">Next</span>
          </th>
       </tr>
-   </thead>
-      
+   </thead>      
    <tbody>
       <tr>
          <td>
             <a href="https://www.wrappixel.com/all-access-pass/?ref=376" width="150px">
-               <img src="https://www.wrappixel.com/wp-content/uploads/2025/04/all-access-pass-category-banner-1.png" alt="materialM-bootstrap-admin-template" style="max-width:140px;">
+               <img src="https://www.wrappixel.com/wp-content/uploads/2025/04/all-access-pass-category-banner-1.png" alt="admin-template" style="max-width:140px;">
             </a>
          </td>
          <td>
@@ -181,13 +170,12 @@ The **Free Version** of the **MaterialPro NextJs Admin Dashboard** provides a so
             </a>
          </td>
          <td>
-            <a href="https://www.wrappixel.com/templates/materialpro-react-admin/?ref=376" width="150px">
-               <img src="https://www.wrappixel.com/wp-content/uploads/edd/2025/01/MaterialPro-React.js.jpg" alt="materialpro-react-admin-template" style="max-width:140px;">
+            <a href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376" width="150px">
+               <img src="https://www.wrappixel.com/wp-content/uploads/edd/2025/02/MaterialPro-Nextjs_without.jpg" alt="materialpro-next-admin-template" style="max-width:140px;">
             </a>
          </td> 
       </tr>
-   </tbody>
-      
+   </tbody>      
    <thead>
       <tr>
          <th>
@@ -203,8 +191,7 @@ The **Free Version** of the **MaterialPro NextJs Admin Dashboard** provides a so
             <span>Nuxt</span>
          </th>
       </tr>
-   </thead>
-   
+   </thead>   
    <tbody>
       <tr>
          <td>
@@ -231,7 +218,7 @@ The **Free Version** of the **MaterialPro NextJs Admin Dashboard** provides a so
 
 ##  🤝  Contributing
 
-We welcome contributions from the community to help improve the **MaterialPro Free NextJs Admin Template**. Whether it’s fixing bugs, adding new features, improving documentation, or sharing ideas — your input is appreciated!
+We welcome contributions from the community to help improve the **MaterialPro React Admin Free**. Whether it’s fixing bugs, adding new features, improving documentation, or sharing ideas — your input is appreciated!
 
 ### 🛠️ How to Contribute
 
@@ -243,7 +230,7 @@ Follow these simple steps to start contributing:
 2. **Clone Your Fork**  
    Use the command below to clone your forked repository:
    ```bash
-   git clone https://github.com/wrappixel/materialpro-nextjs-free.git
+   git clone https://github.com/wrappixel/materialpro-react-lite.git
 
 3. **Create a New Branch**  
    Create a new branch to work on your feature or fix. This keeps your changes separate from the main branch:
@@ -265,7 +252,7 @@ Follow these simple steps to start contributing:
 - <p><a href="https://www.wrappixel.com/templates/category/angular-templates/?ref=376">Angular Templates</a> from Wrappixel</p>
 - <p><a href="https://www.wrappixel.com/templates/category/react-templates/?ref=376">React Template</a> from Wrappixel</p>
 - <p><a href="https://www.wrappixel.com/templates/category/framer-templates/?ref=376">Framer Templates</a> from Wrappixel</p>
--  <p><a href="https://www.wrappixel.com/templates/category/mui-templates/?ref=376">Material UI Templates</a> from Wrappixel</p>
+- <p><a href="https://www.wrappixel.com/templates/category/mui-templates/?ref=376">Material UI Templates</a> from Wrappixel</p>
 - <p><a href="https://www.wrappixel.com/templates/category/vuetify-templates/?ref=376">Vuetify Templates</a> from Wrappixel</p>
 - <p><a href="https://www.wrappixel.com/templates/category/nextjs-templates/?ref=376">NextJs Templates</a> from Wrappixel</p>
 - <p><a href="https://www.wrappixel.com/templates/category/nuxt-templates/?ref=376">Nuxt Templates</a> from Wrappixel</p>
