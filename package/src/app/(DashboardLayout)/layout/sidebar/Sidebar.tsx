@@ -36,7 +36,7 @@ const Sidebar = () => {
               width: sidebarWidth,
               boxSizing: "border-box",
               border: "0",
-              top: "128px",
+              top: "136px",
 
               boxShadow: "1px 0 20px #00000014",
             },
