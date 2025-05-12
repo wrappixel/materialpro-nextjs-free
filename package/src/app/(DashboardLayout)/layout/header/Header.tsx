@@ -31,7 +31,7 @@ const Header = () => {
     [theme.breakpoints.down('md')]: {
       minHeight: '64px',
       top: "157px"
-    },
+    }, 
   }));
   const ToolbarStyled = styled(Toolbar)(({ theme }) => ({
     width: '100%',
