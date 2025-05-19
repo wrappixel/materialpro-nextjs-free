@@ -1,5 +1,5 @@
 'use client';
-import { Grid2 as Grid, Pagination, Stack } from "@mui/material";
+import { Grid, Pagination, Stack } from "@mui/material";
 import BaseCard from '@/app/(DashboardLayout)/components/shared/BaseCard';
 
 

@@ -1,6 +1,6 @@
 import React from "react";
 import {
-    Grid2 as Grid,
+    Grid,
     Box,
     Switch,
     FormGroup,

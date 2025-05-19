@@ -17,7 +17,7 @@ const Sidebar = () => {
 
   if (lgUp) {
     return (
-      <Box
+      (<Box
         sx={{
           width: sidebarWidth,
           flexShrink: 0,
@@ -31,15 +31,16 @@ const Sidebar = () => {
           anchor="left"
           open
           variant="permanent"
-          PaperProps={{
-            sx: {
-              width: sidebarWidth,
-              boxSizing: "border-box",
-              border: "0",
-              top: "136px", 
-
-              boxShadow: "1px 0 20px #00000014",
-            },
+          slotProps={{
+            paper: {
+              sx: {
+                width: sidebarWidth,
+                boxSizing: "border-box",
+                border: "0",
+                top: "136px", 
+                boxShadow: "1px 0 20px #00000014",
+              },
+            }
           }}
         >
           {/* ------------------------------------------- */}
@@ -65,21 +66,23 @@ const Sidebar = () => {
 
           </Box>
         </Drawer >
-      </Box >
+      </Box >)
     );
   }
 
   return (
-    <Drawer
+    (<Drawer
       anchor="left"
       open={isMobileSidebar}
       onClose={() => setIsMobileSidebar(!isMobileSidebar)}
       variant="temporary"
-      PaperProps={{
-        sx: {
-          width: sidebarWidth,
-          boxShadow: (theme) => theme.shadows[8],
-        },
+      slotProps={{
+        paper: {
+          sx: {
+            width: sidebarWidth,
+            boxShadow: (theme) => theme.shadows[8],
+          },
+        }
       }}
     >
       {/* ------------------------------------------- */}
@@ -96,7 +99,7 @@ const Sidebar = () => {
         <Box mt={3}><SidebarItems /></Box>
         <Upgrade />
       </Scrollbar>
-    </Drawer>
+    </Drawer>)
   );
 };
 

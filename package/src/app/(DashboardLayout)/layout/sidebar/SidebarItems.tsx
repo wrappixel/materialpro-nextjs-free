@@ -51,8 +51,7 @@ const renderMenuItems = (items: any[], pathDirect: string) => {
         isSelected={pathDirect === item?.href}
         icon={Itemicon}
         component="div"
-        link={item.href && item.href !== "" ? item.href : undefined}
-        target={item.href && item.href.startsWith("https") ? "_blank" : "_self"}
+        link={item.href}
         badge={item.chip ? true : false}
         badgeContent={item.chip || ""}
         badgeColor="secondary"
@@ -60,12 +59,11 @@ const renderMenuItems = (items: any[], pathDirect: string) => {
         disabled={item.disabled}
         borderRadius='999px'
       >
-        <Link href={item.href} passHref legacyBehavior >
-          <a target={item.href.startsWith("https") ? "_blank" : "_self"} rel="noopener noreferrer">
-            <Typography component='span' color={pathDirect === item?.href ? '#fff' : 'inherit'}>
-              {item.title}</Typography>
-          </a>
+        <Link href={item.href} target={item.href && item.href.startsWith("https") ? "_blank" : "_self"}>
+          <Typography component='span' color={pathDirect === item?.href ? '#fff' : 'inherit'}>
+            {item.title}</Typography>
         </Link>
+
       </MenuItem>
     );
   });
@@ -92,3 +90,7 @@ const SidebarItems = () => {
 };
 
 export default SidebarItems;
+
+
+
+

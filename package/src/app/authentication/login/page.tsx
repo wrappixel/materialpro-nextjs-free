@@ -1,7 +1,7 @@
 "use client"
 
 import Link from 'next/link';
-import { Grid2 as Grid, Box, Card, Stack, Typography } from '@mui/material';
+import { Grid, Box, Card, Stack, Typography } from '@mui/material';
 
 
 import AuthLogin from '../auth/AuthLogin';

@@ -1,5 +1,5 @@
 'use client'
-import { Grid2 as Grid, Box } from '@mui/material';
+import { Grid, Box } from '@mui/material';
 // components
 import SalesOverview from '@/app/(DashboardLayout)/components/dashboard/TheSalesOverview';
 import OurVisitors from '@/app/(DashboardLayout)/components/dashboard/TheOurVisitors';

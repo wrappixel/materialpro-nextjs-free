@@ -6,7 +6,7 @@ import {
   Avatar,
   Stack,
   Typography,
-  Grid2 as Grid,
+  Grid,
   Button,
   MenuItem,
   LinearProgress,

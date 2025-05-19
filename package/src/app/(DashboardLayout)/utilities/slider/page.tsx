@@ -1,6 +1,6 @@
 'use client'
 import React from "react";
-import { Grid2 as Grid, Box, Slider } from "@mui/material";
+import { Grid, Box, Slider } from "@mui/material";
 import BaseCard from '@/app/(DashboardLayout)/components/shared/BaseCard';
 
 import VolumeUpOutlinedIcon from '@mui/icons-material/VolumeUpOutlined';

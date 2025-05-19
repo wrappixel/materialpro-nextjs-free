@@ -1,7 +1,7 @@
 'use client';
 import {
   Paper,
-  Grid2 as Grid,
+  Grid,
   Stack,
   TextField,
   Checkbox,

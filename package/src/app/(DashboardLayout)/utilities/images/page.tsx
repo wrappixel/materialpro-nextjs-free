@@ -1,5 +1,5 @@
 'use client';
-import { Grid2 as Grid, ImageList, ImageListItem, Paper } from "@mui/material";
+import { Grid, ImageList, ImageListItem, Paper } from "@mui/material";
 import BaseCard from '@/app/(DashboardLayout)/components/shared/BaseCard';
 import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
 import Image from "next/image";

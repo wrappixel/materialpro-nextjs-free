@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid2 as Grid, Box } from "@mui/material";
+import { Grid, Box } from "@mui/material";
 
 import { ComboBoxAutocomplete } from "../../components/utilities/auto-complete/ComboBoxAutocomplete";
 

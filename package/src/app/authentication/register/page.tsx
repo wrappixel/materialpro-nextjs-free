@@ -1,6 +1,6 @@
 "use client"
 
-import { Grid2 as Grid, Box, Card, Typography, Stack } from '@mui/material';
+import { Grid, Box, Card, Typography, Stack } from '@mui/material';
 import Link from 'next/link';
 
 import AuthRegister from '../auth/AuthRegister';

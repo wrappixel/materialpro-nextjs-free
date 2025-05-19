@@ -3,7 +3,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Rating from '@mui/material/Rating';
 import Typography from '@mui/material/Typography';
-import Grid from '@mui/material/Grid2'
+import { Grid } from '@mui/material'
 import BaseCard from '@/app/(DashboardLayout)/components/shared/BaseCard';
 
 export default function BasicRating() {

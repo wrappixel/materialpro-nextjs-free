@@ -31,7 +31,7 @@ const Header = () => {
     [theme.breakpoints.down('md')]: {
       minHeight: '64px',
       top: "157px"
-    }, 
+    },
   }));
   const ToolbarStyled = styled(Toolbar)(({ theme }) => ({
     width: '100%',
@@ -110,13 +110,17 @@ const Header = () => {
           onClose={handleClose}
           anchorReference="anchorPosition" // Use custom positioning
           anchorPosition={menuPosition ? { top: menuPosition.top, left: menuPosition.left } : undefined}
-          PaperProps={{
-            sx: {
-              mt: 1, // Ensures the menu appears slightly below the bell icon
-              boxShadow: 9, // Optional: Improves visibility with a shadow
-              minWidth: '200px', // Adjust width to ensure proper alignment
-            },
+
+          slotProps={{
+            paper: {
+              sx: {
+                mt: 1, // Ensures the menu appears slightly below the bell icon
+                boxShadow: 9, // Optional: Improves visibility with a shadow
+                minWidth: '200px', // Adjust width to ensure proper alignment
+              },
+            }
           }}
+
         >
           <MenuItem onClick={handleClose}>
             <Typography variant="body1">Item 1</Typography>
