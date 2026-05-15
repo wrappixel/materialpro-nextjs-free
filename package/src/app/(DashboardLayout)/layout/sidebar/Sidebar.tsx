@@ -88,7 +88,7 @@ const Sidebar = () => {
       {/* ------------------------------------------- */}
       {/* Logo */}
       {/* ------------------------------------------- */}
-      <Box px={2}>
+      <Box sx={{ px: 2 }}>
         <DarkLogo />
       </Box>
       <Scrollbar sx={{ height: "calc(100% - 73px)" }}>
@@ -96,7 +96,7 @@ const Sidebar = () => {
         {/* Sidebar For Mobile */}
         {/* ------------------------------------------- */}
         <SidebarProfile />
-        <Box mt={3}><SidebarItems /></Box>
+        <Box sx={{ mt: 3 }}><SidebarItems /></Box>
         <Upgrade />
       </Scrollbar>
     </Drawer>)

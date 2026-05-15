@@ -29,7 +29,7 @@ const DashboardCard = ({
       {cardheading ? (
         <CardContent>
           <Typography variant="h5">{headtitle}</Typography>
-          <Typography variant="subtitle2" color="textSecondary">
+          <Typography variant="subtitle2" sx={{ color: "textSecondary" }}>
             {headsubtitle}
           </Typography>
         </CardContent>
@@ -39,15 +39,17 @@ const DashboardCard = ({
             <Stack
               direction="row"
               spacing={2}
-              justifyContent="space-between"
-              alignItems={"center"}
-              mb={3}
+              sx={{
+                justifyContent: "space-between",
+                alignItems: "center",
+                mb: 3,
+              }}
             >
               <Box>
                 {title ? <Typography variant="h5">{title}</Typography> : ""}
 
                 {subtitle ? (
-                  <Typography variant="subtitle2" color="textSecondary">
+                  <Typography variant="subtitle2" sx={{ color: "textSecondary" }}>
                     {subtitle}
                   </Typography>
                 ) : (

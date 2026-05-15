@@ -1,17 +1,17 @@
  
 <p align="center">
-   <a href="https://www.wrappixel.com/" target="_blank">
+   <a href="https://wrappixel.com/" target="_blank">
       <img src="https://adminmart.github.io/template_api/images/brand-logo/WrapPixel-Logo.svg" alt="materialpro-image" width="100px" height="100px">
    </a>
 </p>
 <h1 align="center">
-   <a href="https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template/?ref=376" target="_blank" align="center">
+   <a href="https://wrappixel.com/templates/materialpro-free-nextjs-admin-template/?ref=376" target="_blank" align="center">
        MaterialPro Free NextJs Admin Template
    </a>
 </h1>
 <p align="center">Download most useful and comprehensive 🚀 Free NextJs admin template built for developers 🛠</p>
 
-[![MaterialPro Free NextJs Admin Template Demo Screenshot](https://www.wrappixel.com/wp-content/uploads/2023/08/materialpro-nextjs-free-2.jpg)](https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template/?ref=376)
+[![MaterialPro Free NextJs Admin Template Demo Screenshot](https://images.wrappixel.com/templates/free/materialpro/materialpro-nextjs-free.webp)](https://wrappixel.com/templates/materialpro-free-nextjs-admin-template/?ref=376)
 
 
 
@@ -113,12 +113,12 @@ The Pro Version of the **MaterialPro NextJs Admin Dashboard** comes packed with 
   <a href="https://materialpro-nextjs-pro.vercel.app/?ref=376" target="_blank">
     <img src="https://img.shields.io/badge/Try_the_Demo-Click_Here-blue" alt="Try the Demo">
   </a>
-  <a href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376" target="_blank">
+  <a href="https://wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376" target="_blank">
     <img src="https://img.shields.io/badge/Download_Now-Click_Here-green" alt="Download Now">
   </a>
 </div>
 
-[![MaterialPro NextJs Admin Dashboard Demo Screenshot](https://www.wrappixel.com/wp-content/uploads/edd/2025/02/MaterialPro-Nextjs_without.jpg)](https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376)
+[![MaterialPro NextJs Admin Dashboard Demo Screenshot](https://images.wrappixel.com/templates/pro/materialpro/MaterialPro-Nextjs.webp)](https://wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376)
 
 ---
 
@@ -132,7 +132,7 @@ The **Free Version** of the **MaterialPro NextJs Admin Dashboard** provides a so
 | **Feature**                      | **Free Version**                       | **Pro Version**                                      |
 |-----------------------------------|----------------------------------------|-----------------------------------------------------|
 | **Demo**                          | [![Try the Demo](https://img.shields.io/badge/Try_the_Demo-Click_Here-blue)](https://materialpro-nextjs-free.vercel.app/?ref=376)                               | [![Try the Demo](https://img.shields.io/badge/Try_the_Demo-Click_Here-blue)](https://materialpro-nextjs-pro.vercel.app/?ref=376)                                              |
-| **Download**                      | [![Download Now](https://img.shields.io/badge/Download_Now-Click_Here-green)](https://www.wrappixel.com/templates/materialpro-free-nextjs-admin-template/?ref=376)                                | [![Download Now](https://img.shields.io/badge/Download_Now-Click_Here-green)](https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376)                                          |
+| **Download**                      | [![Download Now](https://img.shields.io/badge/Download_Now-Click_Here-green)](https://wrappixel.com/templates/materialpro-free-nextjs-admin-template/?ref=376)                                | [![Download Now](https://img.shields.io/badge/Download_Now-Click_Here-green)](https://wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376)                                          |
 | **Responsive Design**             | ✅ Yes                                 | ✅ Yes                                              |
 | **Pre-designed Pages**            | ✅ Basic Pages                         | ✅ Advanced Pages (more layouts & options)           |
 | **Widgets**                       | ✅ Basic Widgets                       | ✅ Advanced Widgets (e.g., weather, charts, maps)    |
@@ -170,18 +170,18 @@ The **Free Version** of the **MaterialPro NextJs Admin Dashboard** provides a so
    <tbody>
       <tr>
          <td>
-            <a href="https://www.wrappixel.com/all-access-pass/?ref=376" width="150px">
-               <img src="https://www.wrappixel.com/wp-content/uploads/2025/04/all-access-pass-category-banner-1.png" alt="all-access-pass-category-admin-template" style="max-width:140px;">
+            <a href="https://wrappixel.com/all-access-pass/?ref=376" width="150px">
+               <img src="https://images.wrappixel.com/all-access/all-access-pass.webp" alt="all-access-pass-category-admin-template" style="max-width:140px;">
             </a>
          </td>
          <td>
-            <a href="https://www.wrappixel.com/templates/materialpro/?ref=376" width="150px">
-               <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-bootstrap-admin-wpn.jpg" alt="materialpro-bootstrap-admin-template" style="max-width:140px;">
+            <a href="https://wrappixel.com/templates/materialpro/?ref=376" width="150px">
+               <img src="https://images.wrappixel.com/templates/pro/materialpro/materialpro-bootstrap-admin-wpn.webp" alt="materialpro-bootstrap-admin-template" style="max-width:140px;">
             </a>
          </td>
          <td>
-            <a href="https://www.wrappixel.com/templates/materialpro-react-admin/?ref=376" width="150px">
-               <img src="https://www.wrappixel.com/wp-content/uploads/edd/2025/01/MaterialPro-React.js.jpg" alt="materialpro-react-admin-template" style="max-width:140px;">
+            <a href="https://wrappixel.com/templates/materialpro-react-admin/?ref=376" width="150px">
+               <img src="https://images.wrappixel.com/templates/pro/materialpro/MaterialPro-Reactjs.webp" alt="materialpro-react-admin-template" style="max-width:140px;">
             </a>
          </td> 
       </tr>
@@ -207,18 +207,18 @@ The **Free Version** of the **MaterialPro NextJs Admin Dashboard** provides a so
    <tbody>
       <tr>
          <td>
-            <a href="https://www.wrappixel.com/templates/materialpro-angular-dashboard/?ref=376" width="150px">
-               <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-angular-admin-wpn.jpg" alt="materialpro-angular-admin-template" style="max-width:140px;">
+            <a href="https://wrappixel.com/templates/materialpro-angular-dashboard/?ref=376" width="150px">
+               <img src="https://images.wrappixel.com/templates/pro/materialpro/materialpro-angular-admin-wpn.webp" alt="materialpro-angular-admin-template" style="max-width:140px;">
             </a>
          </td>
          <td>
-            <a href="https://www.wrappixel.com/templates/materialpro-vuetify-admin/?ref=376" width="150px">
-               <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-vuetify-admin-wpn.jpg" alt="materialpro-vue-admin-template" style="max-width:150px;">
+            <a href="https://wrappixel.com/templates/materialpro-vuetify-admin/?ref=376" width="150px">
+               <img src="https://images.wrappixel.com/templates/pro/materialpro/materialpro-vuetify-vue.webp" alt="materialpro-vue-admin-template" style="max-width:150px;">
             </a>
          </td>  
          <td>
-            <a href="https://www.wrappixel.com/templates/materialpro-nuxtjs/?ref=376" width="150px">
-               <img src="https://www.wrappixel.com/wp-content/uploads/edd/2024/05/materialpro-nuxtjs-admin-wpn.jpg" alt="materialpro-nuxt-admin-template" style="max-width:150px;">
+            <a href="https://wrappixel.com/templates/materialpro-nuxtjs/?ref=376" width="150px">
+               <img src="https://images.wrappixel.com/templates/pro/materialpro/materialpro-nuxtjs-admin.webp" alt="materialpro-nuxt-admin-template" style="max-width:150px;">
             </a>
          </td>
       </tr>
@@ -259,19 +259,19 @@ Follow these simple steps to start contributing:
 ---
 
 ## 🧭 Useful Links
-- <p><a href="https://www.wrappixel.com/templates/category/admin-dashboard-templates/?ref=376">Admin Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/bootstrap-templates/?ref=376">Bootstrap Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/angular-templates/?ref=376">Angular Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/react-templates/?ref=376">React Template</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/framer-templates/?ref=376">Framer Templates</a> from Wrappixel</p>
--  <p><a href="https://www.wrappixel.com/templates/category/mui-templates/?ref=376">Material UI Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/vuetify-templates/?ref=376">Vuetify Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/nextjs-templates/?ref=376">NextJs Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/nuxt-templates/?ref=376">Nuxt Templates</a> from Wrappixel</p>
-- <p><a href="https://www.wrappixel.com/templates/category/tailwind-dashboard/?ref=376">Tailwind Admin Dashboards</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/templates/category/admin-dashboard-templates/?ref=376">Admin Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/templates/category/bootstrap-templates/?ref=376">Bootstrap Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/templates/category/angular-templates/?ref=376">Angular Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/templates/category/react-templates/?ref=376">React Template</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/templates/category/framer-templates/?ref=376">Framer Templates</a> from Wrappixel</p>
+-  <p><a href="https://wrappixel.com/templates/category/mui-templates/?ref=376">Material UI Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/templates/category/vuetify-templates/?ref=376">Vuetify Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/templates/category/nextjs-templates/?ref=376">NextJs Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/templates/category/nuxt-templates/?ref=376">Nuxt Templates</a> from Wrappixel</p>
+- <p><a href="https://wrappixel.com/templates/category/tailwind-dashboard/?ref=376">Tailwind Admin Dashboards</a> from Wrappixel</p>
 
 ---
 
 ## 🌐 We are social
 
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wrappixel)  [![twitter](https://img.shields.io/badge/twitter-x?style=for-the-badge&logo=x&logoColor=white&color=%230f1419)](https://twitter.com/wrappixel)  [![facebook](https://img.shields.io/badge/facebook-logo?style=for-the-badge&logo=facebook&logoColor=white&color=%230866ff)](https://www.facebook.com/wrappixel)  [![instagram](https://img.shields.io/badge/instagram-logo?style=for-the-badge&logo=instagram&logoColor=white&color=%23F35369)](https://www.instagram.com/wrappixel)  [![youtube](https://img.shields.io/badge/youtube-logo?style=for-the-badge&logo=youtube&logoColor=white&color=%23cc0000)](https://www.youtube.com/@wrappixel)  [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/wrappixel)
+[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wrappixel)  [![twitter](https://img.shields.io/badge/twitter-x?style=for-the-badge&logo=x&logoColor=white&color=%230f1419)](https://twitter.com/wrappixel)  [![facebook](https://img.shields.io/badge/facebook-logo?style=for-the-badge&logo=facebook&logoColor=white&color=%230866ff)](https://facebook.com/wrappixel)  [![instagram](https://img.shields.io/badge/instagram-logo?style=for-the-badge&logo=instagram&logoColor=white&color=%23F35369)](https://instagram.com/wrappixel)  [![youtube](https://img.shields.io/badge/youtube-logo?style=for-the-badge&logo=youtube&logoColor=white&color=%23cc0000)](https://youtube.com/@wrappixel)  [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/company/wrappixel)

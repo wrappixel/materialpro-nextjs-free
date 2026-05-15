@@ -44,7 +44,7 @@ const MyContacts = () => {
         <CardContent sx={{ pb: 1 }}>
           <Box>
             <Typography variant="h5">My Contacts</Typography>
-            <Typography variant="subtitle1" color='textSecondary'>
+            <Typography variant="subtitle1" sx={{ color: "textSecondary" }}>
               Checkout my contacts here
             </Typography>
           </Box>
@@ -61,7 +61,7 @@ const MyContacts = () => {
                   }
                 }}
                 secondaryAction={
-                  <Box display="flex" alignItems="center" gap={1}>
+                  <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
                     <IconButton edge="end" size="small" aria-label="delete" color="error">
                       <Icon icon="solar:videocamera-linear" height={18} />
                     </IconButton>

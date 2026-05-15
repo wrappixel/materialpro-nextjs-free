@@ -1,7 +1,6 @@
 import React from "react";
 
 import {
-
   Box,
   Avatar,
   Stack,
@@ -11,7 +10,6 @@ import {
   MenuItem,
   LinearProgress,
   IconButton,
-
   useTheme,
   Divider,
 } from "@mui/material";
@@ -71,7 +69,7 @@ const ActivityTimeline = () => {
               onChange={handleChange}
               aria-label="lab API tabs example"
               variant="fullWidth"
-              TabIndicatorProps={{ style: { display: "none" } }}
+              slotProps={{ indicator: { style: { display: "none" } } }}
               sx={{
                 "& .MuiTabs-flexContainer": {
                   gap: "20px",
@@ -158,31 +156,35 @@ const ActivityTimeline = () => {
                 <TimelineContent>
                   <Stack
                     direction="row"
-                    justifyContent="space-between"
-                    alignItems="center"
                     spacing={1}
+                    sx={{
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                    }}
                   >
                     <Box>
                       <Stack
-                        direction="row" flexWrap='wrap'
-                        alignItems="center"
+                        direction="row"
                         spacing={1}
-                        mt={1}
-                        mb={1}
+                        sx={{
+                          flexWrap: 'wrap',
+                          alignItems: "center",
+                          mt: 1,
+                          mb: 1,
+                        }}
                       >
                         <Typography variant="h6">John Doe</Typography>
-                        <Typography variant="subtitle1" color="textSecondary">
+                        <Typography variant="subtitle1" sx={{ color: "textSecondary" }}>
                           5 minutes ago
                         </Typography>
                       </Stack>
                       <Typography
                         variant="subtitle1"
-                        color="textSecondary"
-                        mb={2}
+                        sx={{ color: "textSecondary", mb: 2 }}
                       >
                         assign a new task{" "}
                         <Link href="/">
-                          <Typography component="span" color="primary.main">
+                          <Typography component="span" sx={{ color: "primary.main" }}>
                             Design weblayout
                           </Typography>
                         </Link>
@@ -193,7 +195,7 @@ const ActivityTimeline = () => {
                     </IconButton>
                   </Stack>
 
-                  <Grid container spacing={3} mb={3}>
+                  <Grid container spacing={3} sx={{ mb: 3 }}>
                     <Grid
                       size={{
                         xs: 12,
@@ -282,19 +284,24 @@ const ActivityTimeline = () => {
                 <TimelineContent>
                   <Stack
                     direction="row"
-                    justifyContent="space-between"
-                    alignItems="center"
                     spacing={1}
+                    sx={{
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                    }}
                   >
                     <Box>
                       <Stack
-                        direction="row" flexWrap='wrap'
-                        alignItems="center"
+                        direction="row"
                         spacing={1}
-                        mt={1}
+                        sx={{
+                          flexWrap: 'wrap',
+                          alignItems: "center",
+                          mt: 1,
+                        }}
                       >
                         <Typography variant="h6">Canry Smith</Typography>
-                        <Typography variant="subtitle1" color="textSecondary">
+                        <Typography variant="subtitle1" sx={{ color: "textSecondary" }}>
                           5 minutes ago
                         </Typography>
                       </Stack>
@@ -304,11 +311,13 @@ const ActivityTimeline = () => {
                     </IconButton>
                   </Stack>
                   <Box
-                    bgcolor="primary.light"
-                    fontSize="15px"
-                    color="text.secondary"
-                    mt={1}
-                    p="20px"
+                    sx={{
+                      bgcolor: "primary.light",
+                      fontSize: "15px",
+                      color: "text.secondary",
+                      mt: 1,
+                      p: "20px",
+                    }}
                   >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Integer nec odio. Praesent libero. Sed cursus ante dapibus
@@ -339,20 +348,25 @@ const ActivityTimeline = () => {
                 <TimelineContent>
                   <Stack
                     direction="row"
-                    justifyContent="space-between"
-                    alignItems="center"
                     spacing={1}
-                    mb={1}
+                    sx={{
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                      mb: 1,
+                    }}
                   >
                     <Box>
                       <Stack
-                        direction="row" flexWrap='wrap'
-                        alignItems="center"
+                        direction="row"
                         spacing={1}
-                        mt={1}
+                        sx={{
+                          flexWrap: 'wrap',
+                          alignItems: "center",
+                          mt: 1,
+                        }}
                       >
                         <Typography variant="h6">James Smith</Typography>
-                        <Typography variant="subtitle1" color="textSecondary">
+                        <Typography variant="subtitle1" sx={{ color: "textSecondary" }}>
                           5 minutes ago
                         </Typography>
                       </Stack>
@@ -368,12 +382,14 @@ const ActivityTimeline = () => {
                         lg: 5
                       }}>
                       <Box
-                        display="flex"
-                        alignItems="center"
-                        gap={2}
-                        border={1}
-                        borderColor="divider"
-                        padding="20px 30px"
+                        sx={{
+                          display: "flex",
+                          alignItems: "center",
+                          gap: 2,
+                          border: 1,
+                          borderColor: "divider",
+                          padding: "20px 30px",
+                        }}
                       >
                         <img
                           src='/images/svgs/icon-zip.svg'
@@ -382,12 +398,12 @@ const ActivityTimeline = () => {
                           height={40}
                         />
                         <Box>
-                          <Typography variant="h6" mb={1}>
+                          <Typography variant="h6" sx={{ mb: 1 }}>
                             Payments.zip
                           </Typography>
                           <Typography
                             variant="subtitle2"
-                            color="textSecondary"
+                            sx={{ color: "textSecondary" }}
                           >
                             150kb
                           </Typography>
@@ -400,12 +416,14 @@ const ActivityTimeline = () => {
                         lg: 5
                       }}>
                       <Box
-                        display="flex"
-                        alignItems="center"
-                        gap={2}
-                        border={1}
-                        borderColor="divider"
-                        padding="20px 30px"
+                        sx={{
+                          display: "flex",
+                          alignItems: "center",
+                          gap: 2,
+                          border: 1,
+                          borderColor: "divider",
+                          padding: "20px 30px",
+                        }}
                       >
                         <img
                           src='/images/svgs/icon-figma2.svg'
@@ -414,12 +432,12 @@ const ActivityTimeline = () => {
                           height={40}
                         />
                         <Box>
-                          <Typography variant="h6" mb={1}>
+                          <Typography variant="h6" sx={{ mb: 1 }}>
                             Payments.zip
                           </Typography>
                           <Typography
                             variant="subtitle2"
-                            color="textSecondary"
+                            sx={{ color: "textSecondary" }}
                           >
                             150kb
                           </Typography>
@@ -432,15 +450,17 @@ const ActivityTimeline = () => {
                         lg: 2
                       }}>
                       <Box
-                        display="flex"
-                        alignItems="center"
-                        justifyContent="center"
-                        gap={2}
-                        bgcolor="primary.light"
-                        padding="20px 30px"
-                        height="100%"
+                        sx={{
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          gap: 2,
+                          bgcolor: "primary.light",
+                          padding: "20px 30px",
+                          height: "100%",
+                        }}
                       >
-                        <Typography variant="h6" color="textSecondary">
+                        <Typography variant="h6" sx={{ color: "textSecondary" }}>
                           2+
                         </Typography>
                       </Box>
@@ -449,9 +469,11 @@ const ActivityTimeline = () => {
 
                   <Typography
                     variant="subtitle1"
-                    color="textSecondary"
-                    fontSize="15px"
-                    mt={1}
+                    sx={{
+                      color: "textSecondary",
+                      fontSize: "15px",
+                      mt: 1,
+                    }}
                   >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Integer nec odio. Praesent libero.
@@ -475,10 +497,10 @@ const ActivityTimeline = () => {
                   xs: 12,
                   sm: 3
                 }}>
-                <Typography variant="subtitle1" fontWeight="500">
+                <Typography variant="subtitle1" sx={{ fontWeight: "500" }}>
                   Full Name
                 </Typography>
-                <Typography variant="subtitle2" fontSize="12px">
+                <Typography variant="subtitle2" sx={{ fontSize: "12px" }}>
                   Johnathan Deo
                 </Typography>
               </Grid>
@@ -487,10 +509,10 @@ const ActivityTimeline = () => {
                   xs: 12,
                   sm: 3
                 }}>
-                <Typography variant="subtitle1" fontWeight="500">
+                <Typography variant="subtitle1" sx={{ fontWeight: "500" }}>
                   Mobile
                 </Typography>
-                <Typography variant="subtitle2" fontSize="12px">
+                <Typography variant="subtitle2" sx={{ fontSize: "12px" }}>
                   (123) 456 7890
                 </Typography>
               </Grid>
@@ -499,10 +521,10 @@ const ActivityTimeline = () => {
                   xs: 12,
                   sm: 3
                 }}>
-                <Typography variant="subtitle1" fontWeight="500">
+                <Typography variant="subtitle1" sx={{ fontWeight: "500" }}>
                   Email
                 </Typography>
-                <Typography variant="subtitle2" fontSize="12px">
+                <Typography variant="subtitle2" sx={{ fontSize: "12px" }}>
                   johnathan@admin.com
                 </Typography>
               </Grid>
@@ -511,15 +533,15 @@ const ActivityTimeline = () => {
                   xs: 12,
                   sm: 3
                 }}>
-                <Typography variant="subtitle1" fontWeight="500">
+                <Typography variant="subtitle1" sx={{ fontWeight: "500" }}>
                   Location
                 </Typography>
-                <Typography variant="subtitle2" fontSize="12px">
+                <Typography variant="subtitle2" sx={{ fontSize: "12px" }}>
                   London
                 </Typography>
               </Grid>
             </Grid>
-            <Typography variant="subtitle2" color="textSecondary" mt={4}>
+            <Typography variant="subtitle2" sx={{ color: "textSecondary", mt: 4 }}>
               Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
               arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
               justo. Nullam dictum felis eu pede mollis pretium. Integer
@@ -527,33 +549,35 @@ const ActivityTimeline = () => {
               vulputate eleifend tellus. Aenean leo ligula, porttitor eu,
               consequat vitae, eleifend ac, enim.
             </Typography>
-            <Typography variant="subtitle2" color="textSecondary" mt={2}>
+            <Typography variant="subtitle2" sx={{ color: "textSecondary", mt: 2 }}>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry&apos;s standard
               dummy text ever since the 1500s, when an unknown printer took a
               galley of type and scrambled it to make a type specimen book. It
               has survived not only five centuries
             </Typography>
-            <Typography variant="subtitle2" color="textSecondary" mt={2}>
+            <Typography variant="subtitle2" sx={{ color: "textSecondary", mt: 2 }}>
               It was popularised in the 1960s with the release of Letraset
               sheets containing Lorem Ipsum passages, and more recently with
               desktop publishing software like Aldus PageMaker including
               versions of Lorem Ipsum.
             </Typography>
 
-            <Typography variant="h5" mt={5} pb={2}>
+            <Typography variant="h5" sx={{ mt: 5, pb: 2 }}>
               Skill set
             </Typography>
             <Divider />
 
-            <Stack spacing={3} mt={3}>
+            <Stack spacing={3} sx={{ mt: 3 }}>
               <Box>
                 <Stack
                   direction="row"
-                  justifyContent="space-between"
                   spacing={1}
+                  sx={{
+                    justifyContent: "space-between",
+                  }}
                 >
-                  <Typography variant="subtitle1" mb={1}>
+                  <Typography variant="subtitle1" sx={{ mb: 1 }}>
                     Wordpress
                   </Typography>
                   <Typography variant="subtitle1">80%</Typography>
@@ -567,10 +591,12 @@ const ActivityTimeline = () => {
               <Box>
                 <Stack
                   direction="row"
-                  justifyContent="space-between"
                   spacing={1}
+                  sx={{
+                    justifyContent: "space-between",
+                  }}
                 >
-                  <Typography variant="subtitle1" mb={1}>
+                  <Typography variant="subtitle1" sx={{ mb: 1 }}>
                     React
                   </Typography>
                   <Typography variant="subtitle1">50%</Typography>
@@ -584,10 +610,12 @@ const ActivityTimeline = () => {
               <Box>
                 <Stack
                   direction="row"
-                  justifyContent="space-between"
                   spacing={1}
+                  sx={{
+                    justifyContent: "space-between",
+                  }}
                 >
-                  <Typography variant="subtitle1" mb={1}>
+                  <Typography variant="subtitle1" sx={{ mb: 1 }}>
                     VueJs
                   </Typography>
                   <Typography variant="subtitle1">45%</Typography>
@@ -601,10 +629,12 @@ const ActivityTimeline = () => {
               <Box>
                 <Stack
                   direction="row"
-                  justifyContent="space-between"
                   spacing={1}
+                  sx={{
+                    justifyContent: "space-between",
+                  }}
                 >
-                  <Typography variant="subtitle1" mb={1}>
+                  <Typography variant="subtitle1" sx={{ mb: 1 }}>
                     NextJs
                   </Typography>
                   <Typography variant="subtitle1">15%</Typography>

@@ -29,7 +29,7 @@ const ExRadio = () => {
         onChange: handleChange2,
         value: item,
         name: "size-radio-button-demo",
-        inputProps: { "aria-label": item },
+        slotProps: { input: { "aria-label": item } },
     });
     return (
         (<Box>
@@ -50,16 +50,16 @@ const ExRadio = () => {
                             <Radio
                                 checked={checked}
                                 onChange={handleChange}
-                                inputProps={{ "aria-label": "primary checkbox" }}
+                                slotProps={{ input: { "aria-label": "primary checkbox" } }}
                             />
 
                             <Radio
                                 disabled
-                                inputProps={{ "aria-label": "disabled checked checkbox" }}
+                                slotProps={{ input: { "aria-label": "disabled checked checkbox" } }}
                             />
                             <Radio
                                 color="default"
-                                inputProps={{ "aria-label": "checkbox with default color" }}
+                                slotProps={{ input: { "aria-label": "checkbox with default color" } }}
                             />
                         </Box>
                     </BaseCard>
@@ -81,20 +81,20 @@ const ExRadio = () => {
                                 checked={checked}
                                 onChange={handleChange}
                                 color="primary"
-                                inputProps={{ "aria-label": "primary checkbox" }}
+                                slotProps={{ input: { "aria-label": "primary checkbox" } }}
                             />
 
                             <Radio
                                 checked={checked}
                                 onChange={handleChange}
                                 color="secondary"
-                                inputProps={{ "aria-label": "primary checkbox" }}
+                                slotProps={{ input: { "aria-label": "primary checkbox" } }}
                             />
 
                             <Radio
                                 checked={checked}
                                 onChange={handleChange}
-                                inputProps={{ "aria-label": "primary checkbox" }}
+                                slotProps={{ input: { "aria-label": "primary checkbox" } }}
                                 sx={{
                                     color: "success.main",
                                     "&.Mui-checked": {
@@ -106,7 +106,7 @@ const ExRadio = () => {
                             <Radio
                                 checked={checked}
                                 onChange={handleChange}
-                                inputProps={{ "aria-label": "primary checkbox" }}
+                                slotProps={{ input: { "aria-label": "primary checkbox" } }}
                                 sx={{
                                     color: "error.main",
                                     "&.Mui-checked": {
@@ -118,7 +118,7 @@ const ExRadio = () => {
                             <Radio
                                 checked={checked}
                                 onChange={handleChange}
-                                inputProps={{ "aria-label": "primary checkbox" }}
+                                slotProps={{ input: { "aria-label": "primary checkbox" } }}
                                 sx={{
                                     color: "warning.main",
                                     "&.Mui-checked": {
@@ -130,7 +130,7 @@ const ExRadio = () => {
                             <Radio
                                 checked={checked}
                                 onChange={handleChange2}
-                                inputProps={{ "aria-label": "primary checkbox" }}
+                                slotProps={{ input: { "aria-label": "primary checkbox" } }}
                                 sx={{
                                     color: "primary.main",
                                     "&.Mui-checked": {

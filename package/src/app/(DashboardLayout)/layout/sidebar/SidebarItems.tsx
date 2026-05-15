@@ -55,12 +55,11 @@ const renderMenuItems = (items: any[], pathDirect: string) => {
         badge={item.chip ? true : false}
         badgeContent={item.chip || ""}
         badgeColor="secondary"
-        badgeTextColor="#1b84ff"
         disabled={item.disabled}
         borderRadius='999px'
       >
         <Link href={item.href} target={item.href && item.href.startsWith("https") ? "_blank" : "_self"}>
-          <Typography component='span' color={pathDirect === item?.href ? '#fff' : 'inherit'}>
+          <Typography component='span' sx={{ color: pathDirect === item?.href ? '#fff' : 'inherit' }}>
             {item.title}</Typography>
         </Link>
 

@@ -132,12 +132,12 @@ const Header = () => {
 
 
 
-        <Box flexGrow={1} />
+        <Box sx={{ flexGrow: 1 }} />
 
         {lgUp ? (
           <>
-            <Stack spacing={2} direction="row" alignItems="center">
-              <Button variant="contained" color="success" target="_blank" href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376#demos">
+            <Stack spacing={2} direction="row" sx={{ alignItems: "center" }}>
+              <Button variant="contained" color="success" target="_blank" href="https://wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376#demos">
                 Check Pro Template
               </Button>
               <Profile />
@@ -148,8 +148,8 @@ const Header = () => {
         )}
         {lgUp ? null : (
           <>
-            <Stack spacing={2} direction="row" alignItems="center">
-              <Button variant="contained" color="success" target="_blank" href="https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376">
+            <Stack spacing={2} direction="row" sx={{ alignItems: "center" }}>
+              <Button variant="contained" color="success" target="_blank" href="https://wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376">
                 Check Pro Template
               </Button>
               <Profile />

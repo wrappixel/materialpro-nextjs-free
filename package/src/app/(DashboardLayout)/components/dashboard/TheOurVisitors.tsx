@@ -66,8 +66,8 @@ const OurVisitors = () => {
           <>
             <Divider />
             {/* points */}
-            <Stack spacing={3} p={3} direction="row" justifyContent="center">
-              <Stack direction="row" spacing={1} alignItems="center">
+            <Stack spacing={3} direction="row" sx={{ p: 3, justifyContent: "center" }}>
+              <Stack direction="row" spacing={1} sx={{ alignItems: "center" }}>
                 <Avatar
                   sx={{
                     width: 9,
@@ -84,7 +84,7 @@ const OurVisitors = () => {
                 </Typography>
               </Stack>
 
-              <Stack direction="row" spacing={1} alignItems="center">
+              <Stack direction="row" spacing={1} sx={{ alignItems: "center" }}>
                 <Avatar
                   sx={{
                     width: 9,
@@ -101,7 +101,7 @@ const OurVisitors = () => {
                 </Typography>
               </Stack>
 
-              <Stack direction="row" spacing={1} alignItems="center">
+              <Stack direction="row" spacing={1} sx={{ alignItems: "center" }}>
                 <Avatar
                   sx={{
                     width: 9,
@@ -122,7 +122,7 @@ const OurVisitors = () => {
         }
       >
         <>
-          <Box height="220px">
+          <Box sx={{ height: "220px" }}>
             <Chart
               options={optionscolumnchart}
               series={seriescolumnchart}

@@ -8,10 +8,7 @@ import {
   Typography,
   Button,
   IconButton,
-
 } from "@mui/material";
-
-import { Stack } from "@mui/system";
 
 
 const Profile = () => {
@@ -85,7 +82,7 @@ const Profile = () => {
           },
         }}
       >
-        <Box paddingX={2}>
+        <Box sx={{ px: 2 }}>
           {profile.map((profile) => (
             <Box key={profile.title}>
               <Box
@@ -101,12 +98,12 @@ const Profile = () => {
                 <Link href={profile.href}>
                   <Typography
                     variant="subtitle2"
-                    fontWeight={500}
                     color="textPrimary"
                     className="text-hover" component='span'
                     noWrap
                     sx={{
                       width: '240px',
+                      fontWeight: 500,
                     }}
                   >
                     {profile.title}
@@ -116,7 +113,7 @@ const Profile = () => {
             </Box>
           ))}
         </Box>
-        <Box p={0}>
+        <Box sx={{ p: 0 }}>
           <Box
             sx={{
               px: 2,

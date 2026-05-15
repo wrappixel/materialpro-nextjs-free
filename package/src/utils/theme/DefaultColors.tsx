@@ -244,9 +244,14 @@ const baselightTheme = createTheme({
           fontWeight: 400,
           fontSize: '0.75rem',
           height: '26px',
-        },
-        sizeSmall: {
-          fontSize: '0.65rem',
+          variants: [
+            {
+              props: { size: 'small' },
+              style: {
+                fontSize: '0.65rem',
+              },
+            },
+          ],
         },
       },
     },
@@ -271,59 +276,96 @@ const baselightTheme = createTheme({
         },
         input: {
           padding: "12px 14px",
-        },
-        inputSizeSmall: {
-          padding: "8px 14px",
+          variants: [
+            {
+              props: { size: 'small' },
+              style: {
+                padding: "8px 14px",
+              },
+            },
+          ],
         },
       },
     },
 
     MuiAlert: {
       styleOverrides: {
-        filledSuccess: {
-          color: "white",
+        root: {
+          variants: [
+            {
+              props: { variant: 'filled', color: 'success' },
+              style: { color: "white" },
+            },
+            {
+              props: { variant: 'filled', color: 'info' },
+              style: { color: "white" },
+            },
+            {
+              props: { variant: 'filled', color: 'error' },
+              style: { color: "white" },
+            },
+            {
+              props: { variant: 'filled', color: 'warning' },
+              style: { color: "white" },
+            },
+            {
+              props: { variant: 'standard', color: 'success' },
+              style: {
+                backgroundColor: theme.palette.success.light,
+                color: theme.palette.success.main,
+              },
+            },
+            {
+              props: { variant: 'standard', color: 'error' },
+              style: {
+                backgroundColor: theme.palette.error.light,
+                color: theme.palette.error.main,
+              },
+            },
+            {
+              props: { variant: 'standard', color: 'warning' },
+              style: {
+                backgroundColor: theme.palette.warning.light,
+                color: theme.palette.warning.main,
+              },
+            },
+            {
+              props: { variant: 'standard', color: 'info' },
+              style: {
+                backgroundColor: theme.palette.info.light,
+                color: theme.palette.info.main,
+              },
+            },
+            {
+              props: { variant: 'outlined', color: 'success' },
+              style: {
+                borderColor: theme.palette.success.main,
+                color: theme.palette.success.main,
+              },
+            },
+            {
+              props: { variant: 'outlined', color: 'warning' },
+              style: {
+                borderColor: theme.palette.warning.main,
+                color: theme.palette.warning.main,
+              },
+            },
+            {
+              props: { variant: 'outlined', color: 'error' },
+              style: {
+                borderColor: theme.palette.error.main,
+                color: theme.palette.error.main,
+              },
+            },
+            {
+              props: { variant: 'outlined', color: 'info' },
+              style: {
+                borderColor: theme.palette.info.main,
+                color: theme.palette.info.main,
+              },
+            },
+          ],
         },
-        filledInfo: {
-          color: "white",
-        },
-        filledError: {
-          color: "white",
-        },
-        filledWarning: {
-          color: "white",
-        },
-        standardSuccess: {
-          backgroundColor: theme.palette.success.light,
-          color: theme.palette.success.main,
-        },
-        standardError: {
-          backgroundColor: theme.palette.error.light,
-          color: theme.palette.error.main,
-        },
-        standardWarning: {
-          backgroundColor: theme.palette.warning.light,
-          color: theme.palette.warning.main,
-        },
-        standardInfo: {
-          backgroundColor: theme.palette.info.light,
-          color: theme.palette.info.main,
-        },
-        outlinedSuccess: {
-          borderColor: theme.palette.success.main,
-          color: theme.palette.success.main,
-        },
-        outlinedWarning: {
-          borderColor: theme.palette.warning.main,
-          color: theme.palette.warning.main,
-        },
-        outlinedError: {
-          borderColor: theme.palette.error.main,
-          color: theme.palette.error.main,
-        },
-        outlinedInfo: {
-          borderColor: theme.palette.info.main,
-          color: theme.palette.info.main,
-        }
       },
     },
 

@@ -87,12 +87,12 @@ const StyledButton = styled(Button)(({ theme }) => ({
 }));
 
 const MenuItems: MenuItemType[] = [   
-    { id: 1, img: '/images/svgs/next-cat-icon.svg', title: 'NextJs Version', href: 'https://www.wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376#demos' },
-    { id: 2, img: '/images/svgs/angular-cat-icon.svg', title: 'Angular Version', href: 'https://www.wrappixel.com/templates/materialpro-angular-dashboard/?ref=376#demos' },
-    { id: 3, img: '/images/svgs/vue-cat-icon.svg', title: 'VueJs Version', href: 'https://www.wrappixel.com/templates/materialpro-vuetify-admin/?ref=376#demos' },
-    { id: 4, img: '/images/svgs/nuxt-cat-icon.svg', title: 'NuxtJs Version', href: 'https://www.wrappixel.com/templates/materialpro-nuxtjs/?ref=376#demos' },
-    { id: 5, img: '/images/svgs/react-cat-icon.svg', title: 'ReactJs Version', href: 'https://www.wrappixel.com/templates/materialpro-react-admin/?ref=376#demos' },
-    { id: 6, img: '/images/svgs/bt-cat-icon.svg', title: 'Bootstrap Version', href: 'https://www.wrappixel.com/templates/materialpro/?ref=376#demos' },
+    { id: 1, img: '/images/svgs/next-cat-icon.svg', title: 'NextJs Version', href: 'https://wrappixel.com/templates/materialpro-nextjs-admin-dashboard-app-directory/?ref=376#demos' },
+    { id: 2, img: '/images/svgs/angular-cat-icon.svg', title: 'Angular Version', href: 'https://wrappixel.com/templates/materialpro-angular-dashboard/?ref=376#demos' },
+    { id: 3, img: '/images/svgs/vue-cat-icon.svg', title: 'VueJs Version', href: 'https://wrappixel.com/templates/materialpro-vuetify-admin/?ref=376#demos' },
+    { id: 4, img: '/images/svgs/nuxt-cat-icon.svg', title: 'NuxtJs Version', href: 'https://wrappixel.com/templates/materialpro-nuxtjs/?ref=376#demos' },
+    { id: 5, img: '/images/svgs/react-cat-icon.svg', title: 'ReactJs Version', href: 'https://wrappixel.com/templates/materialpro-react-admin/?ref=376#demos' },
+    { id: 6, img: '/images/svgs/bt-cat-icon.svg', title: 'Bootstrap Version', href: 'https://wrappixel.com/templates/materialpro/?ref=376#demos' },
 
 ];
 
@@ -124,7 +124,9 @@ const LivePreviewDropdown: React.FC = () => {
             </StyledButton>
             <StyledMenu
                 id="demo-customized-menu"
-                MenuListProps={{ 'aria-labelledby': 'demo-customized-button' }}
+                slotProps={{
+                    list: { 'aria-labelledby': 'demo-customized-button' },
+                }}
                 anchorEl={anchorEl}
                 open={open}
                 onClose={handleClose}
