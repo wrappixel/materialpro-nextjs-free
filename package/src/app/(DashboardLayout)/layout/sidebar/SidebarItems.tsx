@@ -62,11 +62,6 @@ const renderMenuItems = (items: any[], pathDirect: string) => {
           badgeColor="secondary"
           disabled={item.disabled}
           borderRadius='999px'
-          sx={{
-            "& .MuiChip-label": {
-              color: "#1e88e5 !important",
-            },
-          }}
         >
           <Typography component='span' sx={{ color: pathDirect === item?.href ? '#fff' : 'inherit' }}>
             {item.title}
