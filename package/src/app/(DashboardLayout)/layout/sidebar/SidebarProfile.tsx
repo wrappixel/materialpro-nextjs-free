@@ -161,16 +161,16 @@ export const SidebarProfile = () => {
             </Typography>
           </MenuItem>
           <Divider />
-          <MenuItem onClick={handleClose} disableRipple>
-            <Box sx={{ color: "error.main", display: "flex", alignItems: "center" }}>
-              <Icon icon="solar:logout-2-line-duotone" height={21} />
-            </Box>
-            <Link href="/authentication/login">
+          <Link href="/authentication/login" style={{ textDecoration: 'none' }}>
+            <MenuItem onClick={handleClose} disableRipple>
+              <Box sx={{ color: "error.main", display: "flex", alignItems: "center" }}>
+                <Icon icon="solar:logout-2-line-duotone" height={21} />
+              </Box>
               <Typography sx={{ color: "textPrimary", fontSize: "15px", ml: 1 }}>
                 Logout
               </Typography>
-            </Link>
-          </MenuItem>
+            </MenuItem>
+          </Link>
           <Divider />
           <Box sx={{ px: "12px" }}>
             <Button variant="contained" color="primary" fullWidth>

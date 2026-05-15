@@ -46,24 +46,34 @@ const renderMenuItems = (items: any[], pathDirect: string) => {
     // If the item has no children, render a MenuItem
 
     return (
-      <MenuItem
+      <Link
+        href={item.href}
         key={item.id}
-        isSelected={pathDirect === item?.href}
-        icon={Itemicon}
-        component="div"
-        link={item.href}
-        badge={item.chip ? true : false}
-        badgeContent={item.chip || ""}
-        badgeColor="secondary"
-        disabled={item.disabled}
-        borderRadius='999px'
+        target={item.href && item.href.startsWith("https") ? "_blank" : "_self"}
+        style={{ textDecoration: 'none' }}
       >
-        <Link href={item.href} target={item.href && item.href.startsWith("https") ? "_blank" : "_self"}>
+        <MenuItem
+          isSelected={pathDirect === item?.href}
+          icon={Itemicon}
+          component="div"
+          link={item.href}
+          badge={item.chip ? true : false}
+          badgeContent={item.chip || ""}
+          badgeColor="secondary"
+          disabled={item.disabled}
+          borderRadius='999px'
+          sx={{
+            "& .MuiChip-label": {
+              color: "#1e88e5 !important",
+            },
+          }}
+        >
           <Typography component='span' sx={{ color: pathDirect === item?.href ? '#fff' : 'inherit' }}>
-            {item.title}</Typography>
-        </Link>
+            {item.title}
+          </Typography>
 
-      </MenuItem>
+        </MenuItem>
+      </Link>
     );
   });
 };
@@ -73,7 +83,15 @@ const SidebarItems = () => {
   const pathDirect = pathname;
 
   return (
-    <Box sx={{ px: "16px", overflowX: "hidden" }}>
+    <Box sx={{
+      px: "16px", overflowX: "hidden",
+      "& .MuiChip-root": {
+        color: "#1e88e5 !important",
+      },
+      "& .MuiChip-label": {
+        color: "#1e88e5 !important",
+      },
+    }}>
       <MUI_Sidebar
         width={"100%"}
         showProfile={false}
